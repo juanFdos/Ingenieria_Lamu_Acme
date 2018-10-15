@@ -1,0 +1,11 @@
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Negocio.exe.config
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Negocio.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Negocio.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Entidades.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Entidades.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Entidades.exe.config
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.csprojAssemblyReference.cache
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.csproj.CopyComplete
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.pdb
