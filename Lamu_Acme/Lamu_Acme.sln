@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lamu.Negocio", "Lamu.Negoci
 		{61F20125-58E1-4148-AB80-9A24955C728D} = {61F20125-58E1-4148-AB80-9A24955C728D}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lamu.Soporte", "Lamu.Soporte\Lamu.Soporte.csproj", "{78705EBB-D908-4F5D-8C30-BE85CEC68FFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{A3F707A5-4FBD-4D0F-8FCD-ED2778B8BDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3F707A5-4FBD-4D0F-8FCD-ED2778B8BDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3F707A5-4FBD-4D0F-8FCD-ED2778B8BDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78705EBB-D908-4F5D-8C30-BE85CEC68FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78705EBB-D908-4F5D-8C30-BE85CEC68FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78705EBB-D908-4F5D-8C30-BE85CEC68FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78705EBB-D908-4F5D-8C30-BE85CEC68FFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

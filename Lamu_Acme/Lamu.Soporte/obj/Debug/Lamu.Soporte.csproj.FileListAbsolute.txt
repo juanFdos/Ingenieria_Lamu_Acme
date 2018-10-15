@@ -1,0 +1,6 @@
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Soporte.exe.config
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Soporte.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Soporte.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csproj.CoreCompileInputs.cache
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.pdb

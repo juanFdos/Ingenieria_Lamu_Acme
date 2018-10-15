@@ -12,5 +12,8 @@ namespace Lamu.Negocio.Interfaces
         void AgregarUsuario(InformacionUsuario informacionUsuario);
 
         void AgregarPista(InformacionPista informacionPista);
+
+        void AgregarCliente(InformacionCliente informacionCliente);
+
     }
 }

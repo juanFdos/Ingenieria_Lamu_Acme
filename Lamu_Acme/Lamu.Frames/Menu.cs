@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lamu.Soporte;
+using System;
 using System.Windows.Forms;
 
 namespace Lamu.Frames
