@@ -9,9 +9,9 @@ namespace Lamu.Entidades
     public class InformacionUsuario 
     {
        
-        private string Nombre { get; set; }
-        private string Correo { get; set; }
-        private string Contrasenia { get; set; }
+        public string Nombre { get; set; }
+        public string Correo { get; set; }
+        public string Contrasenia { get; set; }
         
         public InformacionUsuario(string nombre, string correo, string contraenia) 
         {
