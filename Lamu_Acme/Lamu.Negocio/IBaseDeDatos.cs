@@ -10,5 +10,7 @@ namespace Lamu.Negocio.Interfaces
     public interface IBaseDeDatos
     {
         void AgregarUsuario(InformacionUsuario informacionUsuario);
+
+        void AgregarPista(InformacionPista informacionPista);
     }
 }
