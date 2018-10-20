@@ -16,5 +16,10 @@ namespace Lamu.Entidades
             Nombre = nombre;
             Identificacion = identificacion;
         }
+
+        public override string ToString()
+        {
+            return Nombre+","+Identificacion ;
+        }
     }
 }

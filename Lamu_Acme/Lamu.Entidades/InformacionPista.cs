@@ -12,15 +12,19 @@ namespace Lamu.Entidades
         private string Subtitulo { get; set; }
         private string Interprete { get; set; }
         private string Genero { get; set; }
-        private int Duracion { get; set; }
+        
 
-        public InformacionPista(string titulo, string subtitulo, string interprete, string genero, int duracion)
+        public InformacionPista(string titulo, string subtitulo, string interprete, string genero)
         {
             Titulo = titulo;
             Subtitulo = subtitulo;
             Interprete = interprete;
             Genero = genero;
-            Duracion = duracion;
+        }
+
+        public override string ToString()
+        {
+            return Titulo+","+Subtitulo + "," +Interprete + "," +Genero;
         }
     }
 }

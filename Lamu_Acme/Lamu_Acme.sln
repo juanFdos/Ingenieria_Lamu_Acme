@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lamu.Negocio", "Lamu.Negoci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lamu.Soporte", "Lamu.Soporte\Lamu.Soporte.csproj", "{78705EBB-D908-4F5D-8C30-BE85CEC68FFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lamu.Pruebas", "Lamu.Pruebas\Lamu.Pruebas.csproj", "{7D27C21F-87BE-43A6-888E-F021153C9F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lamu.BD", "Lamu.BD\Lamu.BD.csproj", "{B1D0691D-E501-4A10-A0FB-FEA8D7749C1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +40,14 @@ Global
 		{78705EBB-D908-4F5D-8C30-BE85CEC68FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78705EBB-D908-4F5D-8C30-BE85CEC68FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78705EBB-D908-4F5D-8C30-BE85CEC68FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D27C21F-87BE-43A6-888E-F021153C9F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D27C21F-87BE-43A6-888E-F021153C9F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D27C21F-87BE-43A6-888E-F021153C9F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D27C21F-87BE-43A6-888E-F021153C9F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D0691D-E501-4A10-A0FB-FEA8D7749C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D0691D-E501-4A10-A0FB-FEA8D7749C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D0691D-E501-4A10-A0FB-FEA8D7749C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D0691D-E501-4A10-A0FB-FEA8D7749C1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

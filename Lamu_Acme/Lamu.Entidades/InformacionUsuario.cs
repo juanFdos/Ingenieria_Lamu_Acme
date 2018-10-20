@@ -10,14 +10,21 @@ namespace Lamu.Entidades
     {
        
         public string Nombre { get; set; }
-        public string Correo { get; set; }
+        public string Identificacion { get; set; }
         public string Contrasenia { get; set; }
+        public int IdCliente { get; set; }
         
-        public InformacionUsuario(string nombre, string correo, string contraenia) 
+        public InformacionUsuario(string nombre, string identificacion, string contraenia,int idcliente) 
         {
             Nombre = nombre;
-            Correo = correo;
+            Identificacion = identificacion;
             Contrasenia = contraenia;
+            IdCliente = idcliente;
+        }
+
+        public override string ToString()
+        {
+            return Nombre +","+ Identificacion + "," + Contrasenia + "," + IdCliente.ToString();
         }
     }
 }

@@ -30,11 +30,8 @@ C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.pdb
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Negocio.exe
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Entidades.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Negocio.pdb
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Negocio.exe.config
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Entidades.pdb
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Entidades.exe.config
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csprojAssemblyReference.cache
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.AgregarUnaPista.resources
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.AutenticarUsuario.resources
