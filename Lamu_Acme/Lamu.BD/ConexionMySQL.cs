@@ -53,7 +53,7 @@ namespace Lamu.BD
             }
             catch (MySqlException)
             {
-                throw new Excepciones.ProblemasConLaConexion();
+                throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.");
             }
 
         }
@@ -74,7 +74,7 @@ namespace Lamu.BD
             }
             catch (MySqlException)
             {
-                throw new Excepciones.ProblemasConLaConexion();
+                throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.");
             }
         }
 
@@ -93,14 +93,12 @@ namespace Lamu.BD
                 {
                     comando.Parameters.AddWithValue(nombreParametro[i], parametro[i]);
                 }
-                
-                
                 comando.ExecuteNonQuery();
               
             }
             catch (MySqlException)
             {
-                throw new Excepciones.ProblemasConLaConexion();
+                throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.");
             }
 
         }
@@ -108,9 +106,7 @@ namespace Lamu.BD
 
         public bool EstaCerradaLaConexion()
         {
-            
            return Conexion.State == System.Data.ConnectionState.Closed;
-
         }
 
         public void ValidarQueUnUsuarioNoExiste(string identificacion)
@@ -123,9 +119,9 @@ namespace Lamu.BD
                 nombreParametros[0] = "nit";
                 EjecutarUnProcedimientoAlmacenado("procedure_consultar_si_existe_un_usuario", nombreParametros, parametros);
             }
-            catch (MySqlException)
+            catch (MySqlException ex)
             {
-                throw new Excepciones.ProblemasConLaConexion();
+                throw ex;
             }
         }
 
@@ -139,9 +135,9 @@ namespace Lamu.BD
                 nombreParametros[0] = "nit";
                 EjecutarUnProcedimientoAlmacenado("procedure_consultar_si_existe_un_cliente",nombreParametros, parametros);
             }
-            catch (MySqlException)
+            catch (MySqlException ex)
             {
-                throw new Excepciones.ProblemasConLaConexion();
+                throw ex;
             }
         }
 
@@ -149,17 +145,34 @@ namespace Lamu.BD
         {
             try
             {
-                string[] parametros = new string[1];
+                string[] parametros = new string[2];
                 parametros[0] = titulo;
                 parametros[1] = interprete;
-                string[] nombreParametros = new string[1];
+                string[] nombreParametros = new string[2];
                 nombreParametros[0] = "nombre";
                 nombreParametros[1] = "autor";
                 EjecutarUnProcedimientoAlmacenado("procedure_consultar_si_existe_una_pista", nombreParametros, parametros);
             }
+            catch (MySqlException ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void InsertarUnLog(string msg)
+        {
+            try
+            {
+                string[] parametros = new string[1];
+                parametros[0] = msg;                
+                string[] nombreParametros = new string[1];
+                nombreParametros[0] = "VSACCION";
+                
+                EjecutarUnProcedimientoAlmacenado("procedure_crear_un_log", nombreParametros, parametros);
+            }
             catch (MySqlException)
             {
-                throw new Excepciones.ProblemasConLaConexion();
+                throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.");
             }
         }
 
@@ -179,8 +192,27 @@ namespace Lamu.BD
             }
             catch (MySqlException)
             {
-                throw new Excepciones.ProblemasConLaConexion();
+                throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.");
             }
+        }
+
+        public void AutenticarUnUsuario(string identificacion, string contrasenia)
+        {
+            try
+            {
+                string[] parametros = new string[2];
+                parametros[0] = identificacion;
+                parametros[1] = contrasenia;
+                string[] nombreParametros = new string[2];
+                nombreParametros[0] = "VCIDENTIFICACION";
+                nombreParametros[1] = "VCCONTRASENIA";
+                EjecutarUnProcedimientoAlmacenado("procedure_autenticar_Un_usuario", nombreParametros, parametros);
+            }
+            catch (MySqlException ex)
+            {
+                throw ex;
+            }
+            
         }
     }
 }

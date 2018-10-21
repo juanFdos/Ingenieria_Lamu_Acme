@@ -79,5 +79,18 @@ namespace Lamu.BD
                 throw ex;
             }
         }
+
+        public void AgregarUnLog(string accion)
+        {
+            try
+            {
+                Conexion.InsertarUnLog(accion);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }
