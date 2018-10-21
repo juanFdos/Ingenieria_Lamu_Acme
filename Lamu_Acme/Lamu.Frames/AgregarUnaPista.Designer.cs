@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LTitulo = new System.Windows.Forms.Label();
-            this.LSubtitulo = new System.Windows.Forms.Label();
-            this.LInterprete = new System.Windows.Forms.Label();
-            this.LGenero = new System.Windows.Forms.Label();
-            this.Titulo = new System.Windows.Forms.TextBox();
-            this.Subtitulo = new System.Windows.Forms.TextBox();
-            this.Interprete = new System.Windows.Forms.TextBox();
-            this.Genero = new System.Windows.Forms.TextBox();
-            this.AgregarPista = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+<<<<<<< HEAD
+=======
             // LTitulo
             // 
             this.LTitulo.AutoSize = true;
@@ -112,10 +105,14 @@
             this.AgregarPista.Text = "Agregar Pista";
             this.AgregarPista.UseVisualStyleBackColor = true;
             // 
+>>>>>>> 05b69be37cd44a4ea3092eb2e70b25ad59ea9656
             // AgregarUnaPista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(284, 261);
+=======
             this.ClientSize = new System.Drawing.Size(241, 181);
             this.Controls.Add(this.AgregarPista);
             this.Controls.Add(this.Genero);
@@ -126,23 +123,13 @@
             this.Controls.Add(this.LInterprete);
             this.Controls.Add(this.LSubtitulo);
             this.Controls.Add(this.LTitulo);
+>>>>>>> 05b69be37cd44a4ea3092eb2e70b25ad59ea9656
             this.Name = "AgregarUnaPista";
             this.Text = "Agregar Una Pista";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label LTitulo;
-        private System.Windows.Forms.Label LSubtitulo;
-        private System.Windows.Forms.Label LInterprete;
-        private System.Windows.Forms.Label LGenero;
-        private System.Windows.Forms.TextBox Titulo;
-        private System.Windows.Forms.TextBox Subtitulo;
-        private System.Windows.Forms.TextBox Interprete;
-        private System.Windows.Forms.TextBox Genero;
-        private System.Windows.Forms.Button AgregarPista;
     }
 }
