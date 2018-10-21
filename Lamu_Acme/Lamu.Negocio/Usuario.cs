@@ -6,16 +6,32 @@ using System.Threading.Tasks;
 using Lamu.Entidades;
 using Lamu.BD;
 using Lamu.BD.Interfaces;
+using Lamu.Soporte;
 
 namespace Lamu.Negocio
 {
     public class Usuario
     {
-         public IBaseDeDatos BaseDeDatos { get; set; }
+        public IBaseDeDatos BaseDeDatos;
+        public ILog Log;
 
-        public Usuario(IBaseDeDatos baseDeDatos)
+        public Usuario(IBaseDeDatos baseDeDatos, ILog log)
         {
             BaseDeDatos = baseDeDatos;
+            Log = log;
+        }
+
+        public void ValidarUnUsuario(InformacionUsuario informacionUsuario)
+        {
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public List<InformacionCliente> ObtenerClientes()
@@ -27,12 +43,12 @@ namespace Lamu.Negocio
                 clientes.Insert(0, new InformacionCliente(0,"Seleccione una opción", ""));
                 return clientes;
             }
-            catch (Excepciones.ProblemasConLaConexion)
+            catch (Excepciones.ProblemasConLaConexion ex)
             {
-                throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.") ;
+                Log.GuardarAccion(ex);
+                throw ex;
             }
-            
-            
+
         }
         
 
