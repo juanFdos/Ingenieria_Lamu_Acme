@@ -15,7 +15,7 @@ namespace Lamu.Frames
         public AutenticarUsuario()
         {
             InitializeComponent();
-            LabContrasenia.Text = "Ingrese su\nContraseña:";
+            LabContrasenia.Text = "Ingrese su\ncontraseña: ";
         }
 
         private void BtnIngresar_Click(object sender, EventArgs e)

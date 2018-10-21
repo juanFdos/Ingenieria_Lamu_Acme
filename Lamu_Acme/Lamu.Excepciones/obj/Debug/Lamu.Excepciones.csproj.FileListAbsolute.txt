@@ -1,12 +1,12 @@
-C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.dll
-C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.pdb
-C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csprojAssemblyReference.cache
-C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csproj.CoreCompileInputs.cache
-C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.dll
-C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.pdb
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.dll
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.pdb
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csprojAssemblyReference.cache
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csproj.CoreCompileInputs.cache
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.dll
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.pdb
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.dll
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.pdb
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csprojAssemblyReference.cache
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.dll
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.pdb

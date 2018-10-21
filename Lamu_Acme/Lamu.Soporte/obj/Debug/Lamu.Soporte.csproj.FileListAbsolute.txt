@@ -1,3 +1,6 @@
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Soporte.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csproj.CoreCompileInputs.cache
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.pdb
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csprojAssemblyReference.cache
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csproj.CoreCompileInputs.cache
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.pdb
@@ -17,12 +20,8 @@ C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenier
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Excepciones.pdb
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csproj.CopyComplete
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.dll
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csprojAssemblyReference.cache
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csproj.CoreCompileInputs.cache
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.dll
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Soporte.dll.config
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Soporte.dll
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Soporte.pdb
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.BD.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Entidades.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\MySql.Data.dll
@@ -34,5 +33,6 @@ C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debu
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Entidades.exe.config
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\MySql.Data.xml
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debug\Lamu.Excepciones.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csprojAssemblyReference.cache
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csproj.CopyComplete
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.dll

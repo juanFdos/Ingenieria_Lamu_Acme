@@ -87,14 +87,9 @@ CREATE TABLE `log` (
   `fecha` datetime NOT NULL,
   `usuario` varchar(45) NOT NULL,
   PRIMARY KEY (`idlog`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 /*Data for the table `log` */
-
-insert  into `log`(`idlog`,`accion`,`fecha`,`usuario`) values 
-(5,'Intento de autenticación con credenciales incorrectas','2018-10-21 13:17:51','root@localhost'),
-(6,'Intento de autenticación con credenciales incorrectas','2018-10-21 13:18:24','root@localhost'),
-(7,'Intento de autenticación con credenciales incorrectas','2018-10-21 13:23:25','root@localhost');
 
 /*Table structure for table `pista` */
 
@@ -176,31 +171,6 @@ DELIMITER $$
 
 DELIMITER ;
 
-/* Procedure structure for procedure `procedure_autenticar_Un_usuario` */
-
-/*!50003 DROP PROCEDURE IF EXISTS  `procedure_autenticar_Un_usuario` */;
-
-DELIMITER $$
-
-/*!50003 CREATE DEFINER=`root`@`localhost` PROCEDURE `procedure_autenticar_Un_usuario`(in VCIDENTIFICACION VARCHAR(45), VCCONTRASENIA VARCHAR(45) )
-BEGIN
-	DECLARE CONTADOR INTEGER DEFAULT 0;
-	
-	SELECT COUNT(*) INTO CONTADOR
-	FROM `usuario`
-	WHERE `identificacion`=VCIDENTIFICACION AND `contrasenia`=VCCONTRASENIA;
-	
-	IF(CONTADOR = 0) THEN 
-		INSERT INTO `log` (`accion`,`fecha`,`usuario`) 
-		VALUES ('Intento de autenticación con credenciales incorrectas',SYSDATE(),USER() );
-		SIGNAL SQLSTATE '45000'
-		SET MESSAGE_TEXT = 'Usuario y contraseña no coinciden';
-		
-	END IF;
-	
-	END */$$
-DELIMITER ;
-
 /* Procedure structure for procedure `procedure_consultar_si_existe_una_pista` */
 
 /*!50003 DROP PROCEDURE IF EXISTS  `procedure_consultar_si_existe_una_pista` */;
@@ -277,19 +247,6 @@ BEGIN
 		
 	END IF;
 
-	END */$$
-DELIMITER ;
-
-/* Procedure structure for procedure `procedure_crear_un_log` */
-
-/*!50003 DROP PROCEDURE IF EXISTS  `procedure_crear_un_log` */;
-
-DELIMITER $$
-
-/*!50003 CREATE DEFINER=`root`@`localhost` PROCEDURE `procedure_crear_un_log`(IN VSACCION VARCHAR(60) )
-BEGIN
-	INSERT INTO `log`(`accion`,`fecha`,`usuario`) 
-		VALUES (VSACCION,SYSDATE(),USER() );
 	END */$$
 DELIMITER ;
 

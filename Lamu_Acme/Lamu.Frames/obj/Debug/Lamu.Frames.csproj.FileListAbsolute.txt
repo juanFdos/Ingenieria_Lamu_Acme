@@ -26,6 +26,35 @@ C:\Users\lijas\source\repos\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csproj.G
 C:\Users\lijas\source\repos\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csproj.CoreCompileInputs.cache
 C:\Users\lijas\source\repos\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.exe
 C:\Users\lijas\source\repos\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.exe.config
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.BD.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Entidades.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Negocio.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\MySql.Data.dll
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Excepciones.dll
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Google.Protobuf.dll
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.BD.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.BD.exe.config
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Entidades.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Entidades.exe.config
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Negocio.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Negocio.exe.config
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\MySql.Data.xml
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Excepciones.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csprojAssemblyReference.cache
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.AgregarUnaPista.resources
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.AutenticarUsuario.resources
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.CrearClientes.resources
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.CrearUsuarios.resources
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.Menu.resources
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.Properties.Resources.resources
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csproj.GenerateResource.cache
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csproj.CoreCompileInputs.cache
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csproj.CopyComplete
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.pdb
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.exe.config
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.exe
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.pdb
@@ -59,35 +88,6 @@ C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenier
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.pdb
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.dll.config
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.exe.config
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csprojAssemblyReference.cache
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.AgregarUnaPista.resources
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.AutenticarUsuario.resources
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.CrearClientes.resources
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.CrearUsuarios.resources
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.Menu.resources
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.Properties.Resources.resources
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csproj.GenerateResource.cache
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csproj.CoreCompileInputs.cache
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.exe.config
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.exe
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Frames.pdb
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.BD.exe
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Entidades.exe
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Negocio.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.dll
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\MySql.Data.dll
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Excepciones.dll
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Google.Protobuf.dll
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.BD.pdb
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.BD.exe.config
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Entidades.pdb
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Entidades.exe.config
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Negocio.pdb
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Negocio.exe.config
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.pdb
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.dll.config
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\MySql.Data.xml
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Excepciones.pdb
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csproj.CopyComplete
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.exe
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.pdb

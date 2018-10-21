@@ -45,7 +45,6 @@
             // 
             // groupBox
             // 
-            this.groupBox.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.groupBox.Controls.Add(this.LabIdCliente);
             this.groupBox.Controls.Add(this.CBoxIdCliente);
             this.groupBox.Controls.Add(this.TxBoxConfirmacionContrasenia);
@@ -57,18 +56,17 @@
             this.groupBox.Controls.Add(this.LabContrasenia);
             this.groupBox.Controls.Add(this.LabNombre);
             this.groupBox.Controls.Add(this.BtnGuardar);
-            this.groupBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox.Location = new System.Drawing.Point(12, 12);
             this.groupBox.Name = "groupBox";
-            this.groupBox.Size = new System.Drawing.Size(278, 270);
+            this.groupBox.Size = new System.Drawing.Size(278, 279);
             this.groupBox.TabIndex = 0;
             this.groupBox.TabStop = false;
-            this.groupBox.Text = "Formulario para usuarios";
+            this.groupBox.Text = "Formulario usuarios";
             // 
             // LabIdCliente
             // 
             this.LabIdCliente.AutoSize = true;
-            this.LabIdCliente.Location = new System.Drawing.Point(6, 178);
+            this.LabIdCliente.Location = new System.Drawing.Point(6, 186);
             this.LabIdCliente.Name = "LabIdCliente";
             this.LabIdCliente.Size = new System.Drawing.Size(35, 14);
             this.LabIdCliente.TabIndex = 14;
@@ -81,7 +79,7 @@
             this.CBoxIdCliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CBoxIdCliente.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.CBoxIdCliente.FormattingEnabled = true;
-            this.CBoxIdCliente.Location = new System.Drawing.Point(130, 187);
+            this.CBoxIdCliente.Location = new System.Drawing.Point(130, 195);
             this.CBoxIdCliente.MaxDropDownItems = 20;
             this.CBoxIdCliente.Name = "CBoxIdCliente";
             this.CBoxIdCliente.Size = new System.Drawing.Size(141, 22);
@@ -99,7 +97,7 @@
             // 
             // TxBoxContrasenia
             // 
-            this.TxBoxContrasenia.Location = new System.Drawing.Point(130, 105);
+            this.TxBoxContrasenia.Location = new System.Drawing.Point(131, 105);
             this.TxBoxContrasenia.Name = "TxBoxContrasenia";
             this.TxBoxContrasenia.PasswordChar = '*';
             this.TxBoxContrasenia.Size = new System.Drawing.Size(141, 22);
@@ -122,7 +120,7 @@
             // LabCorreo
             // 
             this.LabCorreo.AutoSize = true;
-            this.LabCorreo.Location = new System.Drawing.Point(6, 56);
+            this.LabCorreo.Location = new System.Drawing.Point(6, 61);
             this.LabCorreo.Name = "LabCorreo";
             this.LabCorreo.Size = new System.Drawing.Size(35, 14);
             this.LabCorreo.TabIndex = 4;
@@ -131,7 +129,7 @@
             // LabConfirmacionContrasenia
             // 
             this.LabConfirmacionContrasenia.AutoSize = true;
-            this.LabConfirmacionContrasenia.Location = new System.Drawing.Point(6, 134);
+            this.LabConfirmacionContrasenia.Location = new System.Drawing.Point(6, 139);
             this.LabConfirmacionContrasenia.Name = "LabConfirmacionContrasenia";
             this.LabConfirmacionContrasenia.Size = new System.Drawing.Size(35, 14);
             this.LabConfirmacionContrasenia.TabIndex = 3;
@@ -140,7 +138,7 @@
             // LabContrasenia
             // 
             this.LabContrasenia.AutoSize = true;
-            this.LabContrasenia.Location = new System.Drawing.Point(6, 95);
+            this.LabContrasenia.Location = new System.Drawing.Point(6, 101);
             this.LabContrasenia.Name = "LabContrasenia";
             this.LabContrasenia.Size = new System.Drawing.Size(32, 14);
             this.LabContrasenia.TabIndex = 2;
@@ -162,9 +160,9 @@
             this.BtnGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BtnGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BtnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnGuardar.Location = new System.Drawing.Point(94, 234);
+            this.BtnGuardar.Location = new System.Drawing.Point(102, 238);
             this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(75, 28);
+            this.BtnGuardar.Size = new System.Drawing.Size(75, 30);
             this.BtnGuardar.TabIndex = 0;
             this.BtnGuardar.Text = "Guardar";
             this.BtnGuardar.UseVisualStyleBackColor = true;
@@ -176,10 +174,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(302, 288);
+            this.ClientSize = new System.Drawing.Size(302, 303);
             this.Controls.Add(this.groupBox);
             this.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold);
-            this.MinimizeBox = false;
+            this.MaximizeBox = false;
             this.Name = "CrearUsuarios";
             this.Text = "Crear  usuarios";
             this.Load += new System.EventHandler(this.CrearUsuarios_Load);

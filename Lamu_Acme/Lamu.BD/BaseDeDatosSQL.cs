@@ -93,11 +93,9 @@ namespace Lamu.BD
             }
         }
 
-
         public void AutenticarUnUsuario(string identificacion, string contrasenia)
         {
             throw new NotImplementedException();
         }
-
     }
 }
