@@ -18,7 +18,22 @@ namespace Lamu.Negocio
             BaseDeDatos = baseDeDatos;
         }
 
-     
+        public List<InformacionCliente> ObtenerClientes()
+        {
+            try
+            {
+                List<InformacionCliente> clientes = new List<InformacionCliente>();
+                clientes = BaseDeDatos.ConsultarTodosLosClientes();
+                clientes.Insert(0, new InformacionCliente(0,"Seleccione una opción", ""));
+                return clientes;
+            }
+            catch (Excepciones.ProblemasConLaConexion)
+            {
+                throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.") ;
+            }
+            
+            
+        }
         
 
     }

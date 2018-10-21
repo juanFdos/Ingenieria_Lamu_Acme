@@ -51,12 +51,11 @@ namespace Lamu.BD
 
                 return reader;
             }
-            catch (Exception ex)
+            catch (MySqlException)
             {
-
-                throw ex; 
+                throw new Excepciones.ProblemasConLaConexion();
             }
-           
+
         }
 
         public void EjecutarUnaOperacionInsertUpdateDelete(string operacion)
@@ -73,9 +72,9 @@ namespace Lamu.BD
                 reader = commandDatabase.ExecuteReader();
                 Conexion.Close();
             }
-            catch (Exception ex)
+            catch (MySqlException)
             {
-                throw ex;
+                throw new Excepciones.ProblemasConLaConexion();
             }
         }
 
@@ -99,12 +98,11 @@ namespace Lamu.BD
                 comando.ExecuteNonQuery();
               
             }
-            catch (Exception ex)
+            catch (MySqlException)
             {
-
-                throw ex;
+                throw new Excepciones.ProblemasConLaConexion();
             }
-           
+
         }
 
 
@@ -125,10 +123,9 @@ namespace Lamu.BD
                 nombreParametros[0] = "nit";
                 EjecutarUnProcedimientoAlmacenado("procedure_consultar_si_existe_un_usuario", nombreParametros, parametros);
             }
-            catch (Exception Ex)
+            catch (MySqlException)
             {
-
-                throw Ex;
+                throw new Excepciones.ProblemasConLaConexion();
             }
         }
 
@@ -142,9 +139,9 @@ namespace Lamu.BD
                 nombreParametros[0] = "nit";
                 EjecutarUnProcedimientoAlmacenado("procedure_consultar_si_existe_un_cliente",nombreParametros, parametros);
             }
-            catch (Exception Ex)
+            catch (MySqlException)
             {
-                throw Ex;
+                throw new Excepciones.ProblemasConLaConexion();
             }
         }
 
@@ -160,10 +157,9 @@ namespace Lamu.BD
                 nombreParametros[1] = "autor";
                 EjecutarUnProcedimientoAlmacenado("procedure_consultar_si_existe_una_pista", nombreParametros, parametros);
             }
-            catch (Exception Ex)
+            catch (MySqlException)
             {
-
-                throw Ex;
+                throw new Excepciones.ProblemasConLaConexion();
             }
         }
 
@@ -173,18 +169,17 @@ namespace Lamu.BD
             try
             {
                 MySqlDataReader reader = this.EjecutarUnaConsulta(new ClienteDTO().ConsultarTodosLosClientes());
-                clientes.Add(new InformacionCliente(reader.GetString("nombre"), reader.GetString("identificacion")));
+                clientes.Add(new InformacionCliente(reader.GetInt32("idCliente"), reader.GetString("nombre"), reader.GetString("identificacion")));
                 while (reader.Read())
                 {
-                    clientes.Add(new InformacionCliente(reader.GetString("nombre"), reader.GetString("identificacion")));
+                    clientes.Add(new InformacionCliente(reader.GetInt32("idCliente"), reader.GetString("nombre"), reader.GetString("identificacion")));
                     
                 }
                 return clientes;
             }
-            catch (Exception ex)
+            catch (MySqlException)
             {
-
-                throw ex;
+                throw new Excepciones.ProblemasConLaConexion();
             }
         }
     }

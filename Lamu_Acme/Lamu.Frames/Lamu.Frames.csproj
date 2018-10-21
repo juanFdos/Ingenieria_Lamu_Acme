@@ -116,7 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lamu.BD\Lamu.BD.csproj">
-      <Project>{B1D0691D-E501-4A10-A0FB-FEA8D7749C1C}</Project>
+      <Project>{b1d0691d-e501-4a10-a0fb-fea8d7749c1c}</Project>
       <Name>Lamu.BD</Name>
     </ProjectReference>
     <ProjectReference Include="..\Lamu.Entidades\Lamu.Entidades.csproj">

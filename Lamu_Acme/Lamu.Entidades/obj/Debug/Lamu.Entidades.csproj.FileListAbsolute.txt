@@ -8,10 +8,9 @@ C:\Users\lijas\source\repos\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.pd
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\bin\Debug\Lamu.Entidades.exe.config
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\bin\Debug\Lamu.Entidades.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\bin\Debug\Lamu.Entidades.pdb
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csprojAssemblyReference.cache
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\bin\Debug\Newtonsoft.Json.xml
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csproj.CopyComplete
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.pdb
-C:\Users\lijas\Source\Repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\bin\Debug\Newtonsoft.Json.dll
-C:\Users\lijas\Source\Repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\bin\Debug\Newtonsoft.Json.xml
-C:\Users\lijas\Source\Repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csproj.CopyComplete

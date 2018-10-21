@@ -1,6 +1,7 @@
-﻿using Lamu.BD;
+﻿
 using Lamu.Entidades;
 using Lamu.Negocio;
+using Lamu.BD;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -38,23 +39,24 @@ namespace Lamu.Frames
 
         private void CrearUsuarios_Load(object sender, EventArgs e)
         {
-
-            usuario = new Usuario(new BaseDeDatosSQL(new ConexionMySQL()));
-            CBoxIdCliente.Items.Add("Seleccione una opción");
-            List<InformacionCliente> clientes = usuario.BaseDeDatos.ConsultarTodosLosClientes();
-            clientes.Insert(0, new InformacionCliente("Seleccione una opción", "-1"));
-            CBoxIdCliente.DataSource = clientes;
-            CBoxIdCliente.DisplayMember = "Nombre";
-            CBoxIdCliente.ValueMember = "Identificacion";
-
-
-
+            try
+            {
+                usuario = new Usuario(new BaseDeDatosSQL(new ConexionMySQL()));
+                CBoxIdCliente.DataSource = usuario.ObtenerClientes();
+                CBoxIdCliente.DisplayMember = "Nombre";
+                CBoxIdCliente.ValueMember = "IdCliente";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this,ex.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                
+            }
+            
         }
 
         private void CBoxIdCliente_SelectionChangeCommitted(object sender, EventArgs e)
         {
             this.IdCliente = CBoxIdCliente.SelectedValue.ToString();
-            MessageBox.Show(IdCliente);
             this.LabCorreo.Focus();
         }
     }
