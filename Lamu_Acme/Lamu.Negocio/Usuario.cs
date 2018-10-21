@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Lamu.Entidades;
-using Lamu.BD;
 using Lamu.BD.Interfaces;
 using Lamu.Soporte;
 
