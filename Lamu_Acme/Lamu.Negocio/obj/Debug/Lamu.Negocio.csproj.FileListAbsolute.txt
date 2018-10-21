@@ -9,3 +9,11 @@ C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debu
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.csproj.CopyComplete
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.BD.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\MySql.Data.dll
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Excepciones.dll
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Google.Protobuf.dll
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.BD.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.BD.exe.config
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\MySql.Data.xml
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Excepciones.pdb

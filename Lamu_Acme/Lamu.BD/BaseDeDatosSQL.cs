@@ -10,11 +10,11 @@ namespace Lamu.BD
 {
     public class BaseDeDatosSQL : IBaseDeDatos
     {
-        private IConexion BaseDeDatos;
+        private IConexion Conexion;
 
         public BaseDeDatosSQL(IConexion conexion)
         {
-            BaseDeDatos = conexion;
+            Conexion = conexion;
         }
 
         public void AgregarCliente(InformacionCliente informacionCliente)
@@ -22,8 +22,8 @@ namespace Lamu.BD
             ClienteDTO clienteDTO = new ClienteDTO();
             try
             {
-                BaseDeDatos.ValidarQueUnClienteNoExiste(informacionCliente.Identificacion);
-                BaseDeDatos.EjecutarUnaOperacion(clienteDTO.AgregarCliente(informacionCliente));
+                Conexion.ValidarQueUnClienteNoExiste(informacionCliente.Identificacion);
+                Conexion.EjecutarUnaOperacionInsertUpdateDelete(clienteDTO.AgregarCliente(informacionCliente));
             }
             catch (Exception ex)
             {
@@ -36,7 +36,8 @@ namespace Lamu.BD
             PistaDTO pistaDTO = new PistaDTO();
             try
             {
-
+                Conexion.ValidarQueUnaPistaNoExista(informacionPista.Titulo,informacionPista.Interprete);
+                Conexion.EjecutarUnaOperacionInsertUpdateDelete(pistaDTO.AgregarPista(informacionPista));
             }
             catch (Exception ex)
             {
@@ -50,8 +51,8 @@ namespace Lamu.BD
             UsuarioDTO usuarioDTO = new UsuarioDTO();
             try
             {
-                BaseDeDatos.ValidarQueUnUsuarioNoExiste(informacionUsuario.Identificacion);
-                BaseDeDatos.EjecutarUnaOperacion(usuarioDTO.AgregarUsuario(informacionUsuario));
+                Conexion.ValidarQueUnUsuarioNoExiste(informacionUsuario.Identificacion);
+                Conexion.EjecutarUnaOperacionInsertUpdateDelete(usuarioDTO.AgregarUsuario(informacionUsuario));
             }
             catch (Exception ex)
             {
@@ -63,6 +64,20 @@ namespace Lamu.BD
         public void ConsultarUsuario(InformacionUsuario informacionUsuario)
         {
             throw new NotImplementedException();
+        }
+
+        public List<InformacionCliente> ConsultarTodosLosClientes()
+        {
+            List<InformacionCliente> clientes = new List<InformacionCliente>();
+            try
+            {
+                return Conexion.ConsultarTodosLosClientes();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
     }
 }

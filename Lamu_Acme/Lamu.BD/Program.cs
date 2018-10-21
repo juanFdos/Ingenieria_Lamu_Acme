@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lamu.Entidades;
 
 namespace Lamu.BD
 {
@@ -14,8 +15,13 @@ namespace Lamu.BD
             BaseDeDatosSQL baseDeDatos = new BaseDeDatosSQL(conexion);
             try
             {
-                baseDeDatos.AgregarCliente(new Entidades.InformacionCliente("Adidas", "1234"));
-                Console.WriteLine("melo");
+                List<InformacionCliente> clientes = baseDeDatos.ConsultarTodosLosClientes();
+
+                foreach (var cliente in clientes)
+                {
+                    Console.WriteLine(cliente);
+                }
+                
             }
             catch (Exception ex)
             {

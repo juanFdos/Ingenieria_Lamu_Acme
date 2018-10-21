@@ -10,12 +10,14 @@ namespace Lamu.Entidades
     {
         public string Nombre { get; set; }
         public string Identificacion { get; set; }
+       
 
         public InformacionCliente(string nombre, string identificacion)
         {
             Nombre = nombre;
             Identificacion = identificacion;
         }
+
 
         public override string ToString()
         {

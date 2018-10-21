@@ -1,18 +1,22 @@
 ﻿using MySql.Data.MySqlClient;
+using Lamu.Entidades;
+using System.Collections.Generic;
 
 namespace Lamu.BD.Interfaces
 
 {
     public interface IConexion
     {
-        bool EstadoConexion();
+        bool EstaCerradaLaConexion();
 
-        void EjecutarUnaOperacion(string operacion);
-
-        void EjecutarUnaConsulta(string consulta);
+        void EjecutarUnaOperacionInsertUpdateDelete(string operacion);
 
         void ValidarQueUnUsuarioNoExiste(string identificacion);
 
         void ValidarQueUnClienteNoExiste(string identificacion);
+
+        void ValidarQueUnaPistaNoExista(string titulo, string interprete);
+
+        List<InformacionCliente> ConsultarTodosLosClientes();
     }
 }

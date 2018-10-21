@@ -8,10 +8,10 @@ namespace Lamu.Entidades
 {
     public class InformacionPista
     {
-        private string Titulo { get; set; }
-        private string Subtitulo { get; set; }
-        private string Interprete { get; set; }
-        private string Genero { get; set; }
+        public string Titulo { get; set; }
+        public string Subtitulo { get; set; }
+        public string Interprete { get; set; }
+        public string Genero { get; set; }
         
 
         public InformacionPista(string titulo, string subtitulo, string interprete, string genero)

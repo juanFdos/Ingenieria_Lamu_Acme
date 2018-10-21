@@ -51,6 +51,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lamu.BD\Lamu.BD.csproj">
+      <Project>{b1d0691d-e501-4a10-a0fb-fea8d7749c1c}</Project>
+      <Name>Lamu.BD</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lamu.Entidades\Lamu.Entidades.csproj">
       <Project>{61f20125-58e1-4148-ab80-9a24955c728d}</Project>
       <Name>Lamu.Entidades</Name>

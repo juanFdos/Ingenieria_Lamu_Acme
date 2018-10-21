@@ -67,9 +67,9 @@
       <Project>{61f20125-58e1-4148-ab80-9a24955c728d}</Project>
       <Name>Lamu.Entidades</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Lamu.Soporte\Lamu.Soporte.csproj">
-      <Project>{78705ebb-d908-4f5d-8c30-be85cec68ffe}</Project>
-      <Name>Lamu.Soporte</Name>
+    <ProjectReference Include="..\Lamu.Excepciones\Lamu.Excepciones.csproj">
+      <Project>{d1bd5870-f04b-4e4a-a111-6a8802b048c0}</Project>
+      <Name>Lamu.Excepciones</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

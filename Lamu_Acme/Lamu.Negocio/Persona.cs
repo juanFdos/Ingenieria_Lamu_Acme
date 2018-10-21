@@ -8,6 +8,6 @@ namespace Lamu.Negocio
 {
     public class Persona
     {
-
+       
     }
 }

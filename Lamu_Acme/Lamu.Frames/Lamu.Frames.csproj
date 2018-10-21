@@ -115,13 +115,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lamu.BD\Lamu.BD.csproj">
+      <Project>{B1D0691D-E501-4A10-A0FB-FEA8D7749C1C}</Project>
+      <Name>Lamu.BD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lamu.Entidades\Lamu.Entidades.csproj">
+      <Project>{61F20125-58E1-4148-AB80-9A24955C728D}</Project>
+      <Name>Lamu.Entidades</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lamu.Negocio\Lamu.Negocio.csproj">
       <Project>{a3f707a5-4fbd-4d0f-8fcd-ed2778b8bdea}</Project>
       <Name>Lamu.Negocio</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Lamu.Soporte\Lamu.Soporte.csproj">
-      <Project>{78705ebb-d908-4f5d-8c30-be85cec68ffe}</Project>
-      <Name>Lamu.Soporte</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using Lamu.BD.Interfaces;
+using Lamu.Entidades;
+using Lamu.Excepciones;
 
 namespace Lamu.BD
 {
@@ -33,12 +35,31 @@ namespace Lamu.BD
             
         }
 
-        public void EjecutarUnaConsulta(string consulta)
+        private MySqlDataReader EjecutarUnaConsulta(string consulta)
         {
-            throw new NotImplementedException();
+            MySqlCommand commandDatabase = new MySqlCommand(consulta, Conexion);
+            commandDatabase.CommandTimeout = 60;
+            MySqlDataReader reader;
+            try
+            {
+                if (EstaCerradaLaConexion())
+                    Conexion.Open();
+
+                reader = commandDatabase.ExecuteReader();
+                if (!reader.Read())
+                    throw new Excepciones.ConsultaNoTraeResultados("La consulta no obtuvo datos");
+
+                return reader;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex; 
+            }
+           
         }
 
-        public void EjecutarUnaOperacion(string operacion)
+        public void EjecutarUnaOperacionInsertUpdateDelete(string operacion)
         {
            
             MySqlCommand commandDatabase = new MySqlCommand(operacion, Conexion);
@@ -46,7 +67,9 @@ namespace Lamu.BD
             MySqlDataReader reader;
             try
             {
-                
+                if (EstaCerradaLaConexion())
+                    Conexion.Open();
+
                 reader = commandDatabase.ExecuteReader();
                 Conexion.Close();
             }
@@ -56,7 +79,7 @@ namespace Lamu.BD
             }
         }
 
-       public void EjecutarUnProcedimientoAlmacenado(string procedimiento,string[] nombreParametro, string[] parametro)
+       private void EjecutarUnProcedimientoAlmacenado(string procedimiento,string[] nombreParametro, string[] parametro)
         {
             try
             {
@@ -64,7 +87,9 @@ namespace Lamu.BD
                 comando.CommandType = System.Data.CommandType.StoredProcedure;
                 comando.Connection = Conexion;
                 comando.CommandText = procedimiento;
-                Conexion.Open();
+                if (EstaCerradaLaConexion())
+                    Conexion.Open();
+
                 for (int i = 0; i < parametro.Length; i++)
                 {
                     comando.Parameters.AddWithValue(nombreParametro[i], parametro[i]);
@@ -83,20 +108,11 @@ namespace Lamu.BD
         }
 
 
-        public bool EstadoConexion()
+        public bool EstaCerradaLaConexion()
         {
-            Conexion.Open();
-            if (Conexion.State == System.Data.ConnectionState.Open)
-            {
-                Conexion.Close();
-                return true;
-            }
-            else
-            {
-                Conexion.Close();
-                return false;
-            }
-               
+            
+           return Conexion.State == System.Data.ConnectionState.Closed;
+
         }
 
         public void ValidarQueUnUsuarioNoExiste(string identificacion)
@@ -128,10 +144,48 @@ namespace Lamu.BD
             }
             catch (Exception Ex)
             {
+                throw Ex;
+            }
+        }
+
+        public void ValidarQueUnaPistaNoExista(string titulo, string interprete)
+        {
+            try
+            {
+                string[] parametros = new string[1];
+                parametros[0] = titulo;
+                parametros[1] = interprete;
+                string[] nombreParametros = new string[1];
+                nombreParametros[0] = "nombre";
+                nombreParametros[1] = "autor";
+                EjecutarUnProcedimientoAlmacenado("procedure_consultar_si_existe_una_pista", nombreParametros, parametros);
+            }
+            catch (Exception Ex)
+            {
 
                 throw Ex;
             }
         }
 
+        public List<InformacionCliente> ConsultarTodosLosClientes()
+        {
+            List<InformacionCliente> clientes = new List<InformacionCliente>();
+            try
+            {
+                MySqlDataReader reader = this.EjecutarUnaConsulta(new ClienteDTO().ConsultarTodosLosClientes());
+                clientes.Add(new InformacionCliente(reader.GetString("nombre"), reader.GetString("identificacion")));
+                while (reader.Read())
+                {
+                    clientes.Add(new InformacionCliente(reader.GetString("nombre"), reader.GetString("identificacion")));
+                    
+                }
+                return clientes;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }
