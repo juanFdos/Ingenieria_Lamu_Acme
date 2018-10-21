@@ -84,3 +84,7 @@ C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenier
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.csproj.CopyComplete
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.exe
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\obj\Debug\Lamu.Frames.pdb
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.dll
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.pdb
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.dll.config
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Frames\bin\Debug\Lamu.Soporte.exe.config
