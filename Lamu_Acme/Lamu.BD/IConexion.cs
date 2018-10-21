@@ -6,6 +6,13 @@ namespace Lamu.BD.Interfaces
     public interface IConexion
     {
         bool EstadoConexion();
-        MySqlConnection getConexion();
+
+        void EjecutarUnaOperacion(string operacion);
+
+        void EjecutarUnaConsulta(string consulta);
+
+        void ValidarQueUnUsuarioNoExiste(string identificacion);
+
+        void ValidarQueUnClienteNoExiste(string identificacion);
     }
 }

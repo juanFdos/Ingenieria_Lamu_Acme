@@ -10,6 +10,20 @@ namespace Lamu.BD
     {
         static void Main(string[] args)
         {
+            ConexionMySQL conexion = new ConexionMySQL();
+            BaseDeDatosSQL baseDeDatos = new BaseDeDatosSQL(conexion);
+            try
+            {
+                baseDeDatos.AgregarCliente(new Entidades.InformacionCliente("Adidas", "1234"));
+                Console.WriteLine("melo");
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
+           
+            Console.Read();
         }
     }
 }

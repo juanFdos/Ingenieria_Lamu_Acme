@@ -24,7 +24,8 @@ namespace Lamu.Entidades
 
         public override string ToString()
         {
-            return Nombre +","+ Identificacion + "," + Contrasenia + "," + IdCliente.ToString();
+            return "'"+Nombre +"','"+ Identificacion + "','"
+                + Contrasenia + "','" + IdCliente.ToString()+"'";
         }
     }
 }

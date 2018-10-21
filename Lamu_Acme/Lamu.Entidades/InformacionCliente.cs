@@ -8,8 +8,8 @@ namespace Lamu.Entidades
 {
    public class InformacionCliente
     {
-        private string Nombre { get; set; }
-        private string Identificacion { get; set; }
+        public string Nombre { get; set; }
+        public string Identificacion { get; set; }
 
         public InformacionCliente(string nombre, string identificacion)
         {
@@ -19,7 +19,7 @@ namespace Lamu.Entidades
 
         public override string ToString()
         {
-            return Nombre+","+Identificacion ;
+            return "'"+Nombre+"','"+Identificacion+"'" ;
         }
     }
 }

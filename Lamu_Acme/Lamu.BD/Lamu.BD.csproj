@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B1D0691D-E501-4A10-A0FB-FEA8D7749C1C}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>Lamu.BD</RootNamespace>
     <AssemblyName>Lamu.BD</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -53,6 +53,7 @@
     <Compile Include="ConexionMySQL.cs" />
     <Compile Include="IBaseDeDatos.cs" />
     <Compile Include="IConexion.cs" />
+    <Compile Include="BaseDeDatosSQL.cs" />
     <Compile Include="pistaDTO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

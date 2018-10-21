@@ -24,7 +24,7 @@ namespace Lamu.Entidades
 
         public override string ToString()
         {
-            return Titulo+","+Subtitulo + "," +Interprete + "," +Genero;
+            return "'"+Titulo+"','"+Subtitulo + "','" +Interprete + "'," +Genero+"'";
         }
     }
 }

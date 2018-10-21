@@ -10,16 +10,8 @@ namespace Lamu.Pruebas
         [TestMethod]
         public void ComprobarCuandoElEstadoDeLaConexionEstaAbierta()
         {
-            try
-            {
-                ConexionMySQL conexion = new ConexionMySQL();
-                Assert.Equals(conexion.EstadoConexion(), true);
+           
 
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Data);
-            }
         }
 
         

@@ -12,7 +12,7 @@ namespace Lamu.BD
 
         public string AgregarCliente(InformacionCliente informacionCliente)
         {
-            return "INSERT INTO CLIENTE(nombre,identificion)" +
+            return "INSERT INTO CLIENTE(nombre,identificacion)" +
                 " VALUES(" + informacionCliente.ToString() + "); ";
         }
 

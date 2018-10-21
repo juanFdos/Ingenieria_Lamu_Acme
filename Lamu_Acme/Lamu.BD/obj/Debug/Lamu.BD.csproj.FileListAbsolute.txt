@@ -1,5 +1,3 @@
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\bin\Debug\Lamu.BD.dll.config
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\bin\Debug\Lamu.BD.dll
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\bin\Debug\Lamu.BD.pdb
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\bin\Debug\Lamu.Entidades.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\bin\Debug\Lamu.Soporte.exe
@@ -13,5 +11,7 @@ C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\bin\Debug\MyS
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\obj\Debug\Lamu.BD.csprojAssemblyReference.cache
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\obj\Debug\Lamu.BD.csproj.CoreCompileInputs.cache
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\obj\Debug\Lamu.BD.csproj.CopyComplete
-C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\obj\Debug\Lamu.BD.dll
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\obj\Debug\Lamu.BD.pdb
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\bin\Debug\Lamu.BD.exe.config
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\bin\Debug\Lamu.BD.exe
+C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.BD\obj\Debug\Lamu.BD.exe
