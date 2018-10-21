@@ -2,6 +2,7 @@
 using Lamu.Entidades;
 using Lamu.Negocio;
 using Lamu.BD;
+using Lamu.Soporte;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -41,7 +42,9 @@ namespace Lamu.Frames
         {
             try
             {
-                usuario = new Usuario(new BaseDeDatosSQL(new ConexionMySQL()));
+                BaseDeDatosSQL baseDeDatos = new BaseDeDatosSQL(new ConexionMySQL());
+                
+                usuario = new Usuario(baseDeDatos, new LogMySQL(baseDeDatos));
                 CBoxIdCliente.DataSource = usuario.ObtenerClientes();
                 CBoxIdCliente.DisplayMember = "Nombre";
                 CBoxIdCliente.ValueMember = "IdCliente";

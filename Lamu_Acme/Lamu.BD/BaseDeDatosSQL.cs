@@ -79,5 +79,23 @@ namespace Lamu.BD
                 throw ex;
             }
         }
+
+        public void AgregarUnLog(string accion)
+        {
+            try
+            {
+                Conexion.InsertarUnLog(accion);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public void AutenticarUnUsuario(string identificacion, string contrasenia)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

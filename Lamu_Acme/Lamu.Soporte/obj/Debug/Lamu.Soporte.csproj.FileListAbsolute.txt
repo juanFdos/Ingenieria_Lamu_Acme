@@ -4,3 +4,6 @@ C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\bin\Debu
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csproj.CoreCompileInputs.cache
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.exe
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.pdb
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csprojAssemblyReference.cache
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.csproj.CoreCompileInputs.cache
+C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Soporte\obj\Debug\Lamu.Soporte.pdb

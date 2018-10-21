@@ -17,5 +17,9 @@ namespace Lamu.BD.Interfaces
 
         List<InformacionCliente> ConsultarTodosLosClientes();
 
+        void AgregarUnLog(string accion);
+
+        void AutenticarUnUsuario(string identificacion, string contrasenia);
+
     }
 }

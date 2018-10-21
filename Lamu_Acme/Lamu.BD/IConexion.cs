@@ -18,5 +18,9 @@ namespace Lamu.BD.Interfaces
         void ValidarQueUnaPistaNoExista(string titulo, string interprete);
 
         List<InformacionCliente> ConsultarTodosLosClientes();
+
+        void InsertarUnLog(string msg);
+
+        void AutenticarUnUsuario(string identificacion, string contrasenia);
     }
 }

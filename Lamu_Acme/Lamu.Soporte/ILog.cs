@@ -8,8 +8,9 @@ namespace Lamu.Soporte
 {
      public interface ILog
     {
-        void GuardarError(Exception ex);
+     
+        void GuardarAccion(Exception ex);
 
-        void GuardarAccion(string msg);
+        
     }
 }
