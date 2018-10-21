@@ -28,108 +28,145 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.BtnGuardar = new System.Windows.Forms.Button();
+            this.TxBoxGenero = new System.Windows.Forms.MaskedTextBox();
+            this.TxBoxInterprete = new System.Windows.Forms.MaskedTextBox();
+            this.TxBoxSubtitulo = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBoxtitulo = new System.Windows.Forms.MaskedTextBox();
+            this.LabSubtitulo = new System.Windows.Forms.Label();
+            this.LabGenero = new System.Windows.Forms.Label();
+            this.LabInterprete = new System.Windows.Forms.Label();
+            this.LabTitulo = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-<<<<<<< HEAD
-=======
-            // LTitulo
+            // groupBox1
             // 
-            this.LTitulo.AutoSize = true;
-            this.LTitulo.Location = new System.Drawing.Point(26, 25);
-            this.LTitulo.Name = "LTitulo";
-            this.LTitulo.Size = new System.Drawing.Size(35, 13);
-            this.LTitulo.TabIndex = 0;
-            this.LTitulo.Text = "Título";
+            this.groupBox1.Controls.Add(this.TxBoxGenero);
+            this.groupBox1.Controls.Add(this.TxBoxInterprete);
+            this.groupBox1.Controls.Add(this.TxBoxSubtitulo);
+            this.groupBox1.Controls.Add(this.TxtBoxtitulo);
+            this.groupBox1.Controls.Add(this.LabSubtitulo);
+            this.groupBox1.Controls.Add(this.LabGenero);
+            this.groupBox1.Controls.Add(this.LabInterprete);
+            this.groupBox1.Controls.Add(this.LabTitulo);
+            this.groupBox1.Controls.Add(this.BtnGuardar);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(288, 218);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Formulario pista";
             // 
-            // LSubtitulo
+            // BtnGuardar
             // 
-            this.LSubtitulo.AutoSize = true;
-            this.LSubtitulo.Location = new System.Drawing.Point(26, 51);
-            this.LSubtitulo.Name = "LSubtitulo";
-            this.LSubtitulo.Size = new System.Drawing.Size(50, 13);
-            this.LSubtitulo.TabIndex = 1;
-            this.LSubtitulo.Text = "Subtítulo";
+            this.BtnGuardar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnGuardar.FlatAppearance.BorderSize = 2;
+            this.BtnGuardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BtnGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnGuardar.Location = new System.Drawing.Point(96, 177);
+            this.BtnGuardar.Name = "BtnGuardar";
+            this.BtnGuardar.Size = new System.Drawing.Size(75, 27);
+            this.BtnGuardar.TabIndex = 5;
+            this.BtnGuardar.Text = "Guardar";
+            this.BtnGuardar.UseVisualStyleBackColor = true;
+            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
-            // LInterprete
+            // TxBoxGenero
             // 
-            this.LInterprete.AutoSize = true;
-            this.LInterprete.Location = new System.Drawing.Point(26, 76);
-            this.LInterprete.Name = "LInterprete";
-            this.LInterprete.Size = new System.Drawing.Size(52, 13);
-            this.LInterprete.TabIndex = 2;
-            this.LInterprete.Text = "Interprete";
+            this.TxBoxGenero.Location = new System.Drawing.Point(128, 135);
+            this.TxBoxGenero.Name = "TxBoxGenero";
+            this.TxBoxGenero.PasswordChar = '*';
+            this.TxBoxGenero.Size = new System.Drawing.Size(141, 22);
+            this.TxBoxGenero.TabIndex = 20;
             // 
-            // LGenero
+            // TxBoxInterprete
             // 
-            this.LGenero.AutoSize = true;
-            this.LGenero.Location = new System.Drawing.Point(26, 103);
-            this.LGenero.Name = "LGenero";
-            this.LGenero.Size = new System.Drawing.Size(42, 13);
-            this.LGenero.TabIndex = 3;
-            this.LGenero.Text = "Género";
+            this.TxBoxInterprete.Location = new System.Drawing.Point(128, 97);
+            this.TxBoxInterprete.Name = "TxBoxInterprete";
+            this.TxBoxInterprete.PasswordChar = '*';
+            this.TxBoxInterprete.Size = new System.Drawing.Size(141, 22);
+            this.TxBoxInterprete.TabIndex = 19;
             // 
-            // Titulo
+            // TxBoxSubtitulo
             // 
-            this.Titulo.Location = new System.Drawing.Point(108, 22);
-            this.Titulo.Name = "Titulo";
-            this.Titulo.Size = new System.Drawing.Size(100, 20);
-            this.Titulo.TabIndex = 4;
+            this.TxBoxSubtitulo.Location = new System.Drawing.Point(128, 58);
+            this.TxBoxSubtitulo.Name = "TxBoxSubtitulo";
+            this.TxBoxSubtitulo.Size = new System.Drawing.Size(141, 22);
+            this.TxBoxSubtitulo.TabIndex = 18;
             // 
-            // Subtitulo
+            // TxtBoxtitulo
             // 
-            this.Subtitulo.Location = new System.Drawing.Point(108, 48);
-            this.Subtitulo.Name = "Subtitulo";
-            this.Subtitulo.Size = new System.Drawing.Size(100, 20);
-            this.Subtitulo.TabIndex = 5;
+            this.TxtBoxtitulo.Location = new System.Drawing.Point(128, 21);
+            this.TxtBoxtitulo.Name = "TxtBoxtitulo";
+            this.TxtBoxtitulo.Size = new System.Drawing.Size(141, 22);
+            this.TxtBoxtitulo.TabIndex = 17;
             // 
-            // Interprete
+            // LabSubtitulo
             // 
-            this.Interprete.Location = new System.Drawing.Point(108, 73);
-            this.Interprete.Name = "Interprete";
-            this.Interprete.Size = new System.Drawing.Size(100, 20);
-            this.Interprete.TabIndex = 6;
+            this.LabSubtitulo.AutoSize = true;
+            this.LabSubtitulo.Location = new System.Drawing.Point(4, 61);
+            this.LabSubtitulo.Name = "LabSubtitulo";
+            this.LabSubtitulo.Size = new System.Drawing.Size(35, 14);
+            this.LabSubtitulo.TabIndex = 16;
+            this.LabSubtitulo.Text = "Label";
             // 
-            // Genero
+            // LabGenero
             // 
-            this.Genero.Location = new System.Drawing.Point(108, 100);
-            this.Genero.Name = "Genero";
-            this.Genero.Size = new System.Drawing.Size(100, 20);
-            this.Genero.TabIndex = 7;
+            this.LabGenero.AutoSize = true;
+            this.LabGenero.Location = new System.Drawing.Point(4, 138);
+            this.LabGenero.Name = "LabGenero";
+            this.LabGenero.Size = new System.Drawing.Size(35, 14);
+            this.LabGenero.TabIndex = 15;
+            this.LabGenero.Text = "Label";
             // 
-            // AgregarPista
+            // LabInterprete
             // 
-            this.AgregarPista.Location = new System.Drawing.Point(77, 126);
-            this.AgregarPista.Name = "AgregarPista";
-            this.AgregarPista.Size = new System.Drawing.Size(78, 31);
-            this.AgregarPista.TabIndex = 8;
-            this.AgregarPista.Text = "Agregar Pista";
-            this.AgregarPista.UseVisualStyleBackColor = true;
+            this.LabInterprete.AutoSize = true;
+            this.LabInterprete.Location = new System.Drawing.Point(4, 100);
+            this.LabInterprete.Name = "LabInterprete";
+            this.LabInterprete.Size = new System.Drawing.Size(32, 14);
+            this.LabInterprete.TabIndex = 14;
+            this.LabInterprete.Text = "label";
             // 
->>>>>>> 05b69be37cd44a4ea3092eb2e70b25ad59ea9656
+            // LabTitulo
+            // 
+            this.LabTitulo.AutoSize = true;
+            this.LabTitulo.Location = new System.Drawing.Point(4, 24);
+            this.LabTitulo.Name = "LabTitulo";
+            this.LabTitulo.Size = new System.Drawing.Size(35, 14);
+            this.LabTitulo.TabIndex = 13;
+            this.LabTitulo.Text = "Label";
+            // 
             // AgregarUnaPista
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(284, 261);
-=======
-            this.ClientSize = new System.Drawing.Size(241, 181);
-            this.Controls.Add(this.AgregarPista);
-            this.Controls.Add(this.Genero);
-            this.Controls.Add(this.Interprete);
-            this.Controls.Add(this.Subtitulo);
-            this.Controls.Add(this.Titulo);
-            this.Controls.Add(this.LGenero);
-            this.Controls.Add(this.LInterprete);
-            this.Controls.Add(this.LSubtitulo);
-            this.Controls.Add(this.LTitulo);
->>>>>>> 05b69be37cd44a4ea3092eb2e70b25ad59ea9656
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.ClientSize = new System.Drawing.Size(312, 235);
+            this.Controls.Add(this.groupBox1);
+            this.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold);
+            this.MaximizeBox = false;
             this.Name = "AgregarUnaPista";
-            this.Text = "Agregar Una Pista";
+            this.Text = "Agregar una nueva pista";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button BtnGuardar;
+        private System.Windows.Forms.MaskedTextBox TxBoxGenero;
+        private System.Windows.Forms.MaskedTextBox TxBoxInterprete;
+        private System.Windows.Forms.MaskedTextBox TxBoxSubtitulo;
+        private System.Windows.Forms.MaskedTextBox TxtBoxtitulo;
+        private System.Windows.Forms.Label LabSubtitulo;
+        private System.Windows.Forms.Label LabGenero;
+        private System.Windows.Forms.Label LabInterprete;
+        private System.Windows.Forms.Label LabTitulo;
     }
 }

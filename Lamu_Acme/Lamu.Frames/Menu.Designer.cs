@@ -40,15 +40,16 @@
             // 
             // BtnHU1
             // 
-            this.BtnHU1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.BtnHU1.FlatAppearance.BorderSize = 3;
-            this.BtnHU1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.BtnHU1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnHU1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.BtnHU1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BtnHU1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnHU1.FlatAppearance.BorderSize = 2;
+            this.BtnHU1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BtnHU1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnHU1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnHU1.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnHU1.Location = new System.Drawing.Point(6, 30);
             this.BtnHU1.Name = "BtnHU1";
-            this.BtnHU1.Size = new System.Drawing.Size(75, 45);
+            this.BtnHU1.Size = new System.Drawing.Size(89, 45);
             this.BtnHU1.TabIndex = 0;
             this.BtnHU1.Text = "Autenticarse";
             this.BtnHU1.UseVisualStyleBackColor = true;
@@ -56,26 +57,27 @@
             // 
             // BtnHU4
             // 
-            this.BtnHU4.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.BtnHU4.FlatAppearance.BorderSize = 3;
-            this.BtnHU4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.BtnHU4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnHU4.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.BtnHU4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BtnHU4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnHU4.FlatAppearance.BorderSize = 2;
+            this.BtnHU4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BtnHU4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnHU4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnHU4.Location = new System.Drawing.Point(113, 30);
             this.BtnHU4.Name = "BtnHU4";
             this.BtnHU4.Size = new System.Drawing.Size(75, 45);
             this.BtnHU4.TabIndex = 1;
             this.BtnHU4.Text = "Crear usuarios";
-            this.BtnHU4.UseVisualStyleBackColor = true;
+            this.BtnHU4.UseVisualStyleBackColor = false;
             this.BtnHU4.Click += new System.EventHandler(this.BtnHU4_Click);
             // 
             // BtnHU6
             // 
-            this.BtnHU6.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.BtnHU6.FlatAppearance.BorderSize = 3;
-            this.BtnHU6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.BtnHU6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnHU6.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.BtnHU6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnHU6.FlatAppearance.BorderSize = 2;
+            this.BtnHU6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BtnHU6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnHU6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnHU6.Location = new System.Drawing.Point(15, 91);
             this.BtnHU6.Name = "BtnHU6";
             this.BtnHU6.Size = new System.Drawing.Size(75, 45);
@@ -86,11 +88,11 @@
             // 
             // BtnHU5
             // 
-            this.BtnHU5.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.BtnHU5.FlatAppearance.BorderSize = 3;
-            this.BtnHU5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.BtnHU5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnHU5.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.BtnHU5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnHU5.FlatAppearance.BorderSize = 2;
+            this.BtnHU5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BtnHU5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnHU5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnHU5.Location = new System.Drawing.Point(15, 30);
             this.BtnHU5.Name = "BtnHU5";
             this.BtnHU5.Size = new System.Drawing.Size(75, 45);
@@ -104,7 +106,7 @@
             this.groupBox1.Controls.Add(this.BtnHU1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(99, 153);
+            this.groupBox1.Size = new System.Drawing.Size(101, 153);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Usuario";
@@ -114,7 +116,7 @@
             this.groupBox2.Controls.Add(this.BtnHU6);
             this.groupBox2.Controls.Add(this.BtnHU4);
             this.groupBox2.Controls.Add(this.BtnHU5);
-            this.groupBox2.Location = new System.Drawing.Point(117, 12);
+            this.groupBox2.Location = new System.Drawing.Point(119, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(205, 153);
             this.groupBox2.TabIndex = 5;
@@ -125,13 +127,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(335, 177);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold);
             this.HelpButton = true;
+            this.MaximizeBox = false;
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Menu";

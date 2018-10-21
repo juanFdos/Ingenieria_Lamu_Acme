@@ -28,79 +28,103 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lusuario = new System.Windows.Forms.Label();
-            this.Usuario = new System.Windows.Forms.TextBox();
-            this.LContrasenia = new System.Windows.Forms.Label();
-            this.Contrasenia = new System.Windows.Forms.TextBox();
-            this.Validar = new System.Windows.Forms.Button();
+            this.LabUsuario = new System.Windows.Forms.Label();
+            this.LabContrasenia = new System.Windows.Forms.Label();
+            this.BtnIngresar = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.TxtBoxContrasenia = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBoxUsuario = new System.Windows.Forms.MaskedTextBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Lusuario
+            // LabUsuario
             // 
-            this.Lusuario.AutoSize = true;
-            this.Lusuario.Location = new System.Drawing.Point(32, 27);
-            this.Lusuario.Name = "Lusuario";
-            this.Lusuario.Size = new System.Drawing.Size(43, 13);
-            this.Lusuario.TabIndex = 0;
-            this.Lusuario.Text = "Usuario";
+            this.LabUsuario.AutoSize = true;
+            this.LabUsuario.Location = new System.Drawing.Point(6, 30);
+            this.LabUsuario.Name = "LabUsuario";
+            this.LabUsuario.Size = new System.Drawing.Size(106, 14);
+            this.LabUsuario.TabIndex = 0;
+            this.LabUsuario.Text = "Ingrese su Usuario:";
             // 
-            // Usuario
+            // LabContrasenia
             // 
-            this.Usuario.Location = new System.Drawing.Point(125, 27);
-            this.Usuario.Name = "Usuario";
-            this.Usuario.Size = new System.Drawing.Size(122, 20);
-            this.Usuario.TabIndex = 1;
+            this.LabContrasenia.AutoSize = true;
+            this.LabContrasenia.Location = new System.Drawing.Point(6, 59);
+            this.LabContrasenia.Name = "LabContrasenia";
+            this.LabContrasenia.Size = new System.Drawing.Size(32, 14);
+            this.LabContrasenia.TabIndex = 2;
+            this.LabContrasenia.Text = "label";
             // 
-            // LContrasenia
+            // BtnIngresar
             // 
-            this.LContrasenia.AutoSize = true;
-            this.LContrasenia.Location = new System.Drawing.Point(32, 69);
-            this.LContrasenia.Name = "LContrasenia";
-            this.LContrasenia.Size = new System.Drawing.Size(61, 13);
-            this.LContrasenia.TabIndex = 2;
-            this.LContrasenia.Text = "Contraseña";
+            this.BtnIngresar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnIngresar.FlatAppearance.BorderSize = 2;
+            this.BtnIngresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BtnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BtnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnIngresar.Location = new System.Drawing.Point(83, 102);
+            this.BtnIngresar.Name = "BtnIngresar";
+            this.BtnIngresar.Size = new System.Drawing.Size(75, 27);
+            this.BtnIngresar.TabIndex = 4;
+            this.BtnIngresar.Text = "Ingresar";
+            this.BtnIngresar.UseVisualStyleBackColor = true;
+            this.BtnIngresar.Click += new System.EventHandler(this.BtnIngresar_Click);
             // 
-            // Contrasenia
+            // groupBox1
             // 
-            this.Contrasenia.Location = new System.Drawing.Point(125, 66);
-            this.Contrasenia.Name = "Contrasenia";
-            this.Contrasenia.PasswordChar = '*';
-            this.Contrasenia.Size = new System.Drawing.Size(122, 20);
-            this.Contrasenia.TabIndex = 3;
+            this.groupBox1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.groupBox1.Controls.Add(this.TxtBoxContrasenia);
+            this.groupBox1.Controls.Add(this.TxtBoxUsuario);
+            this.groupBox1.Controls.Add(this.LabUsuario);
+            this.groupBox1.Controls.Add(this.BtnIngresar);
+            this.groupBox1.Controls.Add(this.LabContrasenia);
+            this.groupBox1.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(259, 141);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Formulario autenticación de usuarios";
             // 
-            // Validar
+            // TxtBoxContrasenia
             // 
-            this.Validar.Location = new System.Drawing.Point(91, 108);
-            this.Validar.Name = "Validar";
-            this.Validar.Size = new System.Drawing.Size(75, 23);
-            this.Validar.TabIndex = 4;
-            this.Validar.Text = "Validar";
-            this.Validar.UseVisualStyleBackColor = true;
+            this.TxtBoxContrasenia.Location = new System.Drawing.Point(118, 66);
+            this.TxtBoxContrasenia.Name = "TxtBoxContrasenia";
+            this.TxtBoxContrasenia.Size = new System.Drawing.Size(127, 22);
+            this.TxtBoxContrasenia.TabIndex = 6;
+            // 
+            // TxtBoxUsuario
+            // 
+            this.TxtBoxUsuario.Location = new System.Drawing.Point(118, 27);
+            this.TxtBoxUsuario.Name = "TxtBoxUsuario";
+            this.TxtBoxUsuario.Size = new System.Drawing.Size(127, 22);
+            this.TxtBoxUsuario.TabIndex = 5;
             // 
             // AutenticarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(265, 159);
-            this.Controls.Add(this.Validar);
-            this.Controls.Add(this.Contrasenia);
-            this.Controls.Add(this.LContrasenia);
-            this.Controls.Add(this.Usuario);
-            this.Controls.Add(this.Lusuario);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.ClientSize = new System.Drawing.Size(278, 162);
+            this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
             this.Name = "AutenticarUsuario";
             this.ShowInTaskbar = false;
             this.Text = "Autenticación";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label Lusuario;
-        private System.Windows.Forms.TextBox Usuario;
-        private System.Windows.Forms.Label LContrasenia;
-        private System.Windows.Forms.TextBox Contrasenia;
-        private System.Windows.Forms.Button Validar;
+        private System.Windows.Forms.Label LabUsuario;
+        private System.Windows.Forms.Label LabContrasenia;
+        private System.Windows.Forms.Button BtnIngresar;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.MaskedTextBox TxtBoxContrasenia;
+        private System.Windows.Forms.MaskedTextBox TxtBoxUsuario;
     }
 }

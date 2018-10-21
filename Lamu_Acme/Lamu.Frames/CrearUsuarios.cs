@@ -60,7 +60,7 @@ namespace Lamu.Frames
         private void CBoxIdCliente_SelectionChangeCommitted(object sender, EventArgs e)
         {
             this.IdCliente = CBoxIdCliente.SelectedValue.ToString();
-            this.LabCorreo.Focus();
+            this.BtnGuardar.Focus();
         }
     }
 }

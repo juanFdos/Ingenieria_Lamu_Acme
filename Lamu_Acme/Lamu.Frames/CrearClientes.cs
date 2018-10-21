@@ -15,6 +15,12 @@ namespace Lamu.Frames
         public CrearClientes()
         {
             InitializeComponent();
+            LabContrasenia.Text = "Ingrese su\nContraseña:";
+        }
+
+        private void BtnGuardar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
