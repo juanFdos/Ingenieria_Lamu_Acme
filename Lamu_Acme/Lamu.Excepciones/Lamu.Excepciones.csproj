@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsultaNoTraeResultados.cs" />
+    <Compile Include="ParametrosIncorrectos.cs" />
     <Compile Include="ProblemasConLaConexion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -31,11 +31,11 @@
             this.groupBox = new System.Windows.Forms.GroupBox();
             this.LabIdCliente = new System.Windows.Forms.Label();
             this.CBoxIdCliente = new System.Windows.Forms.ComboBox();
-            this.TxBoxConfirmacionContrasenia = new System.Windows.Forms.MaskedTextBox();
-            this.TxBoxContrasenia = new System.Windows.Forms.MaskedTextBox();
-            this.TxBoxCorreo = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBoxConfirmacionContrasenia = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBoxContrasenia = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBoxIdentifiacion = new System.Windows.Forms.MaskedTextBox();
             this.TxtBoxNombre = new System.Windows.Forms.MaskedTextBox();
-            this.LabCorreo = new System.Windows.Forms.Label();
+            this.LabIdentificacion = new System.Windows.Forms.Label();
             this.LabConfirmacionContrasenia = new System.Windows.Forms.Label();
             this.LabContrasenia = new System.Windows.Forms.Label();
             this.LabNombre = new System.Windows.Forms.Label();
@@ -47,11 +47,11 @@
             // 
             this.groupBox.Controls.Add(this.LabIdCliente);
             this.groupBox.Controls.Add(this.CBoxIdCliente);
-            this.groupBox.Controls.Add(this.TxBoxConfirmacionContrasenia);
-            this.groupBox.Controls.Add(this.TxBoxContrasenia);
-            this.groupBox.Controls.Add(this.TxBoxCorreo);
+            this.groupBox.Controls.Add(this.TxtBoxConfirmacionContrasenia);
+            this.groupBox.Controls.Add(this.TxtBoxContrasenia);
+            this.groupBox.Controls.Add(this.TxtBoxIdentifiacion);
             this.groupBox.Controls.Add(this.TxtBoxNombre);
-            this.groupBox.Controls.Add(this.LabCorreo);
+            this.groupBox.Controls.Add(this.LabIdentificacion);
             this.groupBox.Controls.Add(this.LabConfirmacionContrasenia);
             this.groupBox.Controls.Add(this.LabContrasenia);
             this.groupBox.Controls.Add(this.LabNombre);
@@ -87,28 +87,30 @@
             this.CBoxIdCliente.TabStop = false;
             this.CBoxIdCliente.SelectionChangeCommitted += new System.EventHandler(this.CBoxIdCliente_SelectionChangeCommitted);
             // 
-            // TxBoxConfirmacionContrasenia
+            // TxtBoxConfirmacionContrasenia
             // 
-            this.TxBoxConfirmacionContrasenia.Location = new System.Drawing.Point(130, 143);
-            this.TxBoxConfirmacionContrasenia.Name = "TxBoxConfirmacionContrasenia";
-            this.TxBoxConfirmacionContrasenia.PasswordChar = '*';
-            this.TxBoxConfirmacionContrasenia.Size = new System.Drawing.Size(141, 22);
-            this.TxBoxConfirmacionContrasenia.TabIndex = 12;
+            this.TxtBoxConfirmacionContrasenia.Location = new System.Drawing.Point(130, 143);
+            this.TxtBoxConfirmacionContrasenia.Name = "TxtBoxConfirmacionContrasenia";
+            this.TxtBoxConfirmacionContrasenia.PasswordChar = '*';
+            this.TxtBoxConfirmacionContrasenia.Size = new System.Drawing.Size(141, 22);
+            this.TxtBoxConfirmacionContrasenia.TabIndex = 12;
             // 
-            // TxBoxContrasenia
+            // TxtBoxContrasenia
             // 
-            this.TxBoxContrasenia.Location = new System.Drawing.Point(131, 105);
-            this.TxBoxContrasenia.Name = "TxBoxContrasenia";
-            this.TxBoxContrasenia.PasswordChar = '*';
-            this.TxBoxContrasenia.Size = new System.Drawing.Size(141, 22);
-            this.TxBoxContrasenia.TabIndex = 11;
+            this.TxtBoxContrasenia.Location = new System.Drawing.Point(131, 105);
+            this.TxtBoxContrasenia.Name = "TxtBoxContrasenia";
+            this.TxtBoxContrasenia.PasswordChar = '*';
+            this.TxtBoxContrasenia.Size = new System.Drawing.Size(141, 22);
+            this.TxtBoxContrasenia.TabIndex = 11;
             // 
-            // TxBoxCorreo
+            // TxtBoxIdentifiacion
             // 
-            this.TxBoxCorreo.Location = new System.Drawing.Point(130, 66);
-            this.TxBoxCorreo.Name = "TxBoxCorreo";
-            this.TxBoxCorreo.Size = new System.Drawing.Size(141, 22);
-            this.TxBoxCorreo.TabIndex = 10;
+            this.TxtBoxIdentifiacion.Location = new System.Drawing.Point(130, 66);
+            this.TxtBoxIdentifiacion.Mask = "9999999999";
+            this.TxtBoxIdentifiacion.Name = "TxtBoxIdentifiacion";
+            this.TxtBoxIdentifiacion.Size = new System.Drawing.Size(141, 22);
+            this.TxtBoxIdentifiacion.TabIndex = 10;
+            this.TxtBoxIdentifiacion.ValidatingType = typeof(int);
             // 
             // TxtBoxNombre
             // 
@@ -117,14 +119,14 @@
             this.TxtBoxNombre.Size = new System.Drawing.Size(141, 22);
             this.TxtBoxNombre.TabIndex = 9;
             // 
-            // LabCorreo
+            // LabIdentificacion
             // 
-            this.LabCorreo.AutoSize = true;
-            this.LabCorreo.Location = new System.Drawing.Point(6, 61);
-            this.LabCorreo.Name = "LabCorreo";
-            this.LabCorreo.Size = new System.Drawing.Size(35, 14);
-            this.LabCorreo.TabIndex = 4;
-            this.LabCorreo.Text = "Label";
+            this.LabIdentificacion.AutoSize = true;
+            this.LabIdentificacion.Location = new System.Drawing.Point(6, 61);
+            this.LabIdentificacion.Name = "LabIdentificacion";
+            this.LabIdentificacion.Size = new System.Drawing.Size(35, 14);
+            this.LabIdentificacion.TabIndex = 4;
+            this.LabIdentificacion.Text = "Label";
             // 
             // LabConfirmacionContrasenia
             // 
@@ -191,15 +193,15 @@
 
         private System.Windows.Forms.GroupBox groupBox;
         private System.Windows.Forms.Button BtnGuardar;
-        private System.Windows.Forms.Label LabCorreo;
         private System.Windows.Forms.Label LabConfirmacionContrasenia;
         private System.Windows.Forms.Label LabContrasenia;
         private System.Windows.Forms.Label LabNombre;
-        private System.Windows.Forms.MaskedTextBox TxBoxConfirmacionContrasenia;
-        private System.Windows.Forms.MaskedTextBox TxBoxContrasenia;
-        private System.Windows.Forms.MaskedTextBox TxBoxCorreo;
+        private System.Windows.Forms.MaskedTextBox TxtBoxConfirmacionContrasenia;
+        private System.Windows.Forms.MaskedTextBox TxtBoxContrasenia;
+        private System.Windows.Forms.MaskedTextBox TxtBoxIdentifiacion;
         private System.Windows.Forms.MaskedTextBox TxtBoxNombre;
         private System.Windows.Forms.ComboBox CBoxIdCliente;
         private System.Windows.Forms.Label LabIdCliente;
+        private System.Windows.Forms.Label LabIdentificacion;
     }
 }

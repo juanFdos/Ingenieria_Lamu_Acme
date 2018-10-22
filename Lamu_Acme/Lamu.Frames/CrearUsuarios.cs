@@ -20,12 +20,13 @@ namespace Lamu.Frames
     {
         private Usuario usuario;
         private string IdCliente;
+        
 
         public CrearUsuarios()
         {
             InitializeComponent();
             LabNombre.Text = "Ingrese el nombre: ";
-            LabCorreo.Text = "Ingrese un correo\nelectronico: ";
+            LabIdentificacion.Text = "Ingrese la \nidentificación: ";
             LabContrasenia.Text = "Ingrese una \ncontraseña: ";
             LabConfirmacionContrasenia.Text = "Ingrese de nuevo la \ncontraseña: ";
             LabIdCliente.Text = "Seleccione la empresa \nA cual pertenece: ";
@@ -34,7 +35,18 @@ namespace Lamu.Frames
 
         private void BtnGuardar_Click(object sender, EventArgs e)
         {
-            // usuario.validar();
+            try
+            {
+                InformacionUsuario informacionUsuario =
+      new InformacionUsuario(TxtBoxNombre.Text, TxtBoxIdentifiacion.Text, TxtBoxContrasenia.Text,
+      TxtBoxConfirmacionContrasenia.Text, int.Parse(IdCliente));
+                usuario.ValidarUnUsuario(informacionUsuario);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
         }
 
@@ -60,7 +72,7 @@ namespace Lamu.Frames
         private void CBoxIdCliente_SelectionChangeCommitted(object sender, EventArgs e)
         {
             this.IdCliente = CBoxIdCliente.SelectedValue.ToString();
-            this.LabCorreo.Focus();
+            this.BtnGuardar.Focus();
         }
     }
 }

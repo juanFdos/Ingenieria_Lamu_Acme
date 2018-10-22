@@ -46,9 +46,10 @@ namespace Lamu.BD
                     Conexion.Open();
 
                 reader = commandDatabase.ExecuteReader();
+                
                 if (!reader.Read())
                     throw new Excepciones.ConsultaNoTraeResultados("La consulta no obtuvo datos");
-
+               
                 return reader;
             }
             catch (MySqlException)
@@ -72,9 +73,10 @@ namespace Lamu.BD
                 reader = commandDatabase.ExecuteReader();
                 Conexion.Close();
             }
-            catch (MySqlException)
+            catch (MySqlException ex)
             {
-                throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.");
+                throw ex;
+                //throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.");
             }
         }
 
@@ -82,23 +84,31 @@ namespace Lamu.BD
         {
             try
             {
-                MySqlCommand comando = new MySqlCommand();
-                comando.CommandType = System.Data.CommandType.StoredProcedure;
+                Conexion.Open();
+                MySqlCommand comando = new MySqlCommand
+                {
+                    CommandType = System.Data.CommandType.StoredProcedure
+                };
+
+               
                 comando.Connection = Conexion;
                 comando.CommandText = procedimiento;
-                if (EstaCerradaLaConexion())
-                    Conexion.Open();
+              
 
                 for (int i = 0; i < parametro.Length; i++)
                 {
                     comando.Parameters.AddWithValue(nombreParametro[i], parametro[i]);
                 }
                 comando.ExecuteNonQuery();
+
+                Conexion.Close();
               
             }
-            catch (MySqlException)
+            catch (MySqlException ex)
             {
-                throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.");
+                Conexion.Close();
+                throw ex;
+               
             }
 
         }
@@ -188,6 +198,7 @@ namespace Lamu.BD
                     clientes.Add(new InformacionCliente(reader.GetInt32("idCliente"), reader.GetString("nombre"), reader.GetString("identificacion")));
                     
                 }
+                Conexion.Close();
                 return clientes;
             }
             catch (MySqlException)
