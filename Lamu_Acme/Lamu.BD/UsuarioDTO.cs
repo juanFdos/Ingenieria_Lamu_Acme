@@ -12,7 +12,7 @@ namespace Lamu.BD
        
         public string AgregarUsuario(InformacionUsuario informacionUsuario)
         {
-            return "INSERT INTO USUARIO(nombre,identificion,contrasenia,idCliente)" +
+            return "INSERT INTO USUARIO(nombre,identificacion,contrasenia,idCliente)" +
                 " VALUES("+informacionUsuario.ToString() +"); ";
         }
 

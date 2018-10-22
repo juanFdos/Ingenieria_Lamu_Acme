@@ -41,6 +41,17 @@ namespace Lamu.Frames
       new InformacionUsuario(TxtBoxNombre.Text, TxtBoxIdentifiacion.Text, TxtBoxContrasenia.Text,
       TxtBoxConfirmacionContrasenia.Text, int.Parse(IdCliente));
                 usuario.ValidarUnUsuario(informacionUsuario);
+                switch (MessageBox.Show(this, "Usuario creado satisfactoriamente\n ¿Desea ingresar otro usuario?", "Exito!",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Information))
+                {
+                    case DialogResult.Yes:
+                        LimpiarCampos();
+                        break;
+
+                    case DialogResult.No:
+                        this.Close();
+                        break;
+                }
 
             }
             catch (Exception ex)
@@ -48,6 +59,15 @@ namespace Lamu.Frames
                 MessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
+        }
+
+        private void LimpiarCampos()
+        {
+            CBoxIdCliente.SelectedValue = 0;
+            TxtBoxConfirmacionContrasenia.Clear();
+            TxtBoxContrasenia.Clear();
+            TxtBoxIdentifiacion.Clear();
+            TxtBoxNombre.Clear();
         }
 
         private void CrearUsuarios_Load(object sender, EventArgs e)
