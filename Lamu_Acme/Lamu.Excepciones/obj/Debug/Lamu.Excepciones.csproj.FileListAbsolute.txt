@@ -10,3 +10,9 @@ C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenier
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csproj.CoreCompileInputs.cache
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.dll
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.pdb
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.dll
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.pdb
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csprojAssemblyReference.cache
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.dll
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.pdb

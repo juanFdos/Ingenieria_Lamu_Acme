@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 
 namespace Lamu.Negocio
 {
-    public class Usuario
+    public class Usuario: IPersona
     {
         public IBaseDeDatos BaseDeDatos;
         public ILog Log;
@@ -40,7 +40,8 @@ namespace Lamu.Negocio
            
             
         }
-        private bool ValidarCampos(InformacionUsuario informacionUsuario)
+
+        public bool ValidarCampos(InformacionUsuario informacionUsuario)
         {
             mensajeDeError = "Se presentaron los siguiente errores: \n";
             int contador = 0;
@@ -97,7 +98,7 @@ namespace Lamu.Negocio
             }
 
         }
-        
 
+        
     }
 }

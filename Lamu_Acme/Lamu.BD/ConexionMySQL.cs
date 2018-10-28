@@ -18,9 +18,11 @@ namespace Lamu.BD
         private string Usuario = "root";
         private string Password = "";
         private string Database = "lamu";
+
+        internal IBaseDeDatos BaseDeDatos;
        
 
-        public ConexionMySQL()
+        public ConexionMySQL(IBaseDeDatos baseDeDatos)
         {
           
             MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
@@ -30,12 +32,13 @@ namespace Lamu.BD
             builder.Password = Password;
             builder.Database = Database;
             builder.SslMode = MySqlSslMode.None;
+            BaseDeDatos = baseDeDatos;
 
             Conexion = new MySqlConnection(builder.ToString());
             
         }
 
-        private MySqlDataReader EjecutarUnaConsulta(string consulta)
+        public MySqlDataReader EjecutarUnaConsulta(string consulta)
         {
             MySqlCommand commandDatabase = new MySqlCommand(consulta, Conexion);
             commandDatabase.CommandTimeout = 60;
@@ -207,8 +210,26 @@ namespace Lamu.BD
             }
         }
 
-        public void AutenticarUnUsuario(string identificacion, string contrasenia)
+        public void AutenticarUsuario(string identificacionUsuario, string contraseniaUsuario, string query)
         {
+            
+
+          
+            MySqlConnection conn = new MySqlConnection(Conexion.ToString());
+            conn.Open();
+
+
+            MySqlCommand mycomand = new MySqlCommand(query, conn);
+            mycomand.Parameters.AddWithValue("?identificacionUsuario", identificacionUsuario);
+
+            mycomand.Parameters.AddWithValue("?contraseniaUsuario", contraseniaUsuario);
+
+
+            MySqlDataReader myreader = mycomand.ExecuteReader();
+            BaseDeDatos.ObtenerDatosDeUsuario(myreader);
+            
+
+            /*
             try
             {
                 string[] parametros = new string[2];
@@ -223,7 +244,9 @@ namespace Lamu.BD
             {
                 throw ex;
             }
+            */
             
         }
+
     }
 }
