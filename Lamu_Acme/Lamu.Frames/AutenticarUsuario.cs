@@ -1,6 +1,7 @@
 ﻿using Lamu.BD;
 using Lamu.Entidades;
 using Lamu.Negocio;
+using Lamu.Soporte;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -49,5 +50,6 @@ namespace Lamu.Frames
             }
 
         }
+
     }
 }

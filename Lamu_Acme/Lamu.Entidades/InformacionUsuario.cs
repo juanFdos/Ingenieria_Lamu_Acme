@@ -15,11 +15,11 @@ namespace Lamu.Entidades
         public string ConfirmacionContrasenia { get; set; }
         public int IdCliente { get; set; }
         
-        public InformacionUsuario(string nombre, string identificacion, string contraenia,int idcliente) 
+        public InformacionUsuario(string nombre, string identificacion, string contrasenia,int idcliente) 
         {
             Nombre = nombre;
             Identificacion = identificacion;
-            Contrasenia = contraenia;
+            Contrasenia = contrasenia;
             IdCliente = idcliente;
         }
 

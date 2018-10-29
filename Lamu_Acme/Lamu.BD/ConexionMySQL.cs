@@ -22,7 +22,7 @@ namespace Lamu.BD
         internal IBaseDeDatos BaseDeDatos;
        
 
-        public ConexionMySQL(IBaseDeDatos baseDeDatos)
+        public ConexionMySQL()
         {
           
             MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
@@ -32,7 +32,6 @@ namespace Lamu.BD
             builder.Password = Password;
             builder.Database = Database;
             builder.SslMode = MySqlSslMode.None;
-            BaseDeDatos = baseDeDatos;
 
             Conexion = new MySqlConnection(builder.ToString());
             
