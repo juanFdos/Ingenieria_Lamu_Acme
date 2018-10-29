@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using Lamu.Entidades;
 using System.Collections.Generic;
+using System;
 
 namespace Lamu.BD.Interfaces
 
@@ -21,6 +22,7 @@ namespace Lamu.BD.Interfaces
 
         void InsertarUnLog(string msg);
 
-        void AutenticarUnUsuario(string identificacion, string contrasenia);
+        void AutenticarUsuario(string identificacion, string contrasenia, string query);
+        
     }
 }

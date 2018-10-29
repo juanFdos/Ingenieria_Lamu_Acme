@@ -43,6 +43,7 @@ C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\LAMU\Ingenier
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Soporte.dll
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Soporte.pdb
 C:\Users\lijas\source\repos\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Soporte.dll.config
+<<<<<<< HEAD
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Negocio.exe.config
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Negocio.exe
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Negocio.pdb
@@ -65,3 +66,27 @@ C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenier
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.csproj.CopyComplete
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.exe
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.pdb
+=======
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Negocio.exe.config
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Negocio.exe
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Negocio.pdb
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.BD.exe
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Entidades.exe
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Excepciones.dll
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Soporte.dll
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\MySql.Data.dll
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Google.Protobuf.dll
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.BD.pdb
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.BD.exe.config
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Entidades.pdb
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Entidades.exe.config
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Excepciones.pdb
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Soporte.pdb
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\Lamu.Soporte.dll.config
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\bin\Debug\MySql.Data.xml
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.csprojAssemblyReference.cache
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.csproj.CopyComplete
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.exe
+C:\Users\danie\OneDrive\Documentos\Universidad\Taller\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Negocio\obj\Debug\Lamu.Negocio.pdb
+>>>>>>> b3ae1485a5d79aeb91fdd5d13054d795d8f0de6d

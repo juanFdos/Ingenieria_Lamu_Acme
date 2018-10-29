@@ -5,13 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using Lamu.BD.Interfaces;
 using Lamu.Entidades;
+using MySql.Data.MySqlClient;
 
 namespace Lamu.BD
 {
     public class BaseDeDatosSQL : IBaseDeDatos
     {
         private IConexion Conexion;
-
+        public List<string> datosUsuario { get; set; }
+        
         public BaseDeDatosSQL(IConexion conexion)
         {
             Conexion = conexion;
@@ -52,7 +54,7 @@ namespace Lamu.BD
             try
             {
                 Conexion.ValidarQueUnUsuarioNoExiste(informacionUsuario.Identificacion);
-                Conexion.EjecutarUnaOperacionInsertUpdateDelete(usuarioDTO.AgregarUsuario(informacionUsuario));
+                Conexion.EjecutarUnaOperacionInsertUpdateDelete(operacion: usuarioDTO.AgregarUsuario(informacionUsuario));
             }
             catch (Exception ex)
             {
@@ -63,7 +65,7 @@ namespace Lamu.BD
 
         public void ConsultarUsuario(InformacionUsuario informacionUsuario)
         {
-            throw new NotImplementedException();
+            
         }
 
         public List<InformacionCliente> ConsultarTodosLosClientes()
@@ -93,9 +95,32 @@ namespace Lamu.BD
             }
         }
 
-        public void AutenticarUnUsuario(string identificacion, string contrasenia)
+        public void AutenticarUnUsuario(InformacionUsuario informacionUsuario)
         {
-            throw new NotImplementedException();
+            UsuarioDTO usuarioDTO = new UsuarioDTO();
+            try
+            {
+                Conexion.AutenticarUsuario(informacionUsuario.Identificacion, informacionUsuario.Contrasenia, usuarioDTO.BuscarUsuario(informacionUsuario.Identificacion,informacionUsuario.Contrasenia));
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public List<string> ObtenerDatosDeUsuario(MySqlDataReader myreader)
+        {
+            List<string> datosUsuario = null;
+            if (myreader.Read())
+            {
+                datosUsuario = new List<string>();
+                datosUsuario.Add(myreader["Nombre de la columna de la identificacion"].ToString());
+                datosUsuario.Add(myreader["Nombre de la columna de la contraseña"].ToString());
+                return datosUsuario;
+            }
+
+            return datosUsuario;
         }
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Lamu.Entidades;
+using MySql.Data.MySqlClient;
 
 namespace Lamu.BD.Interfaces
 {
@@ -19,7 +20,9 @@ namespace Lamu.BD.Interfaces
 
         void AgregarUnLog(string accion);
 
-        void AutenticarUnUsuario(string identificacion, string contrasenia);
+        void AutenticarUnUsuario(InformacionUsuario informacionUsuario);
+
+        List<string> ObtenerDatosDeUsuario(MySqlDataReader myreader);
 
     }
 }

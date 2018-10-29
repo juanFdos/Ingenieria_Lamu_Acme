@@ -9,6 +9,8 @@ namespace Lamu.BD
 {
     public class UsuarioDTO
     {
+
+        InformacionUsuario informacionUsuario;
        
         public string AgregarUsuario(InformacionUsuario informacionUsuario)
         {
@@ -16,6 +18,10 @@ namespace Lamu.BD
                 " VALUES("+informacionUsuario.ToString() +"); ";
         }
 
+        public string BuscarUsuario(string identificacionUsuario, string contraseniaUsuario)
+        {
+            return"Select * From usuarios Where identificacion = ?indentificacionUsuario AND contrasenia = ?contraseniaUsuario";
+        }
 
     }
 }
