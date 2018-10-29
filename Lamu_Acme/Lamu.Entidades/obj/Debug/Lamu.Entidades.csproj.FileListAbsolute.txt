@@ -8,3 +8,13 @@ C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenier
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csproj.CopyComplete
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.exe
 C:\Users\Stiven\Desktop\UdeM Nivel 8\Taller ingenieria de software\Soft\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.pdb
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\bin\Debug\Lamu.Entidades.exe.config
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\bin\Debug\Lamu.Entidades.exe
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\bin\Debug\Lamu.Entidades.pdb
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csprojAssemblyReference.cache
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csproj.CopyComplete
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.exe
+C:\Users\Ingeomega\Ingenieria_Lamu_AcmeV3\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.pdb

@@ -11,6 +11,7 @@ namespace Lamu.Negocio
 {
    public class Cliente
     {
+
         public IBaseDeDatos BaseDeDatos;
         public ILog Log;
         private string mensajeDeError;
