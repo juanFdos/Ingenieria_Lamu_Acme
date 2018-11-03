@@ -19,7 +19,6 @@ namespace Lamu.BD
         private string Password = "";
         private string Database = "lamu";
 
-        internal IBaseDeDatos BaseDeDatos;
 
         private BaseDeDatosSQL baseDeDatos;
 
@@ -214,9 +213,12 @@ namespace Lamu.BD
         public void AutenticarUsuario(string identificacionUsuario, string contraseniaUsuario, string query)
         {
 
+            if (!EstaCerradaLaConexion())
+            {
+                Conexion.Close();
+            }
 
             Conexion.Open();
-
             MySqlCommand mycomand = new MySqlCommand(query, Conexion);
             mycomand.Parameters.AddWithValue("?identificacionUsuario", identificacionUsuario);
 

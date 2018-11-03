@@ -16,3 +16,9 @@ C:\Users\danie\Downloads\lamu\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\ob
 C:\Users\danie\Downloads\lamu\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csproj.CoreCompileInputs.cache
 C:\Users\danie\Downloads\lamu\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.dll
 C:\Users\danie\Downloads\lamu\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.pdb
+C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.dll
+C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\bin\Debug\Lamu.Excepciones.pdb
+C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csprojAssemblyReference.cache
+C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.dll
+C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Excepciones\obj\Debug\Lamu.Excepciones.pdb
