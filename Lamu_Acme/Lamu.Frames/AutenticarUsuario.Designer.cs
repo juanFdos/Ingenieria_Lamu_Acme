@@ -32,8 +32,8 @@
             this.LabContrasenia = new System.Windows.Forms.Label();
             this.BtnIngresar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.TxtBoxUsuario = new System.Windows.Forms.MaskedTextBox();
             this.TxtBoxContrasenia = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBoxUsuario = new System.Windows.Forms.MaskedTextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,19 +84,20 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Formulario ";
             // 
+            // TxtBoxContrasenia
+            // 
+            this.TxtBoxContrasenia.Location = new System.Drawing.Point(122, 62);
+            this.TxtBoxContrasenia.Name = "TxtBoxContrasenia";
+            this.TxtBoxContrasenia.Size = new System.Drawing.Size(125, 22);
+            this.TxtBoxContrasenia.TabIndex = 6;
+            this.TxtBoxContrasenia.UseSystemPasswordChar = true;
+            // 
             // TxtBoxUsuario
             // 
             this.TxtBoxUsuario.Location = new System.Drawing.Point(122, 21);
             this.TxtBoxUsuario.Name = "TxtBoxUsuario";
             this.TxtBoxUsuario.Size = new System.Drawing.Size(125, 22);
             this.TxtBoxUsuario.TabIndex = 5;
-            // 
-            // TxtBoxContrasenia
-            // 
-            this.TxtBoxContrasenia.Location = new System.Drawing.Point(122, 67);
-            this.TxtBoxContrasenia.Name = "TxtBoxContrasenia";
-            this.TxtBoxContrasenia.Size = new System.Drawing.Size(125, 22);
-            this.TxtBoxContrasenia.TabIndex = 6;
             // 
             // AutenticarUsuario
             // 

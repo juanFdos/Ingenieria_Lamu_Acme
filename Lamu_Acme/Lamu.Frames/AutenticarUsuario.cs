@@ -17,7 +17,7 @@ namespace Lamu.Frames
     public partial class AutenticarUsuario : Form
     {
         private UsuarioRegistrado usuarioRegistrado;
-        private BaseDeDatosSQL baseDeDatosSQL;
+        BaseDeDatosSQL baseDeDatos = new BaseDeDatosSQL(new ConexionMySQL());
         public AutenticarUsuario()
         {
             InitializeComponent();
@@ -29,24 +29,53 @@ namespace Lamu.Frames
             try
             {
                 InformacionUsuario informacionUsuario =
-                new InformacionUsuario(TxtBoxUsuario.Text, TxtBoxContrasenia.Text);
+                new InformacionUsuario(TxtBoxUsuario.Text.ToString(), TxtBoxContrasenia.Text.ToString());
+                Login_usuario();
                 usuarioRegistrado.ValidarUnUsuario(informacionUsuario);
-                if (baseDeDatosSQL.datosUsuario[0]==informacionUsuario.Identificacion && baseDeDatosSQL.datosUsuario[1] == informacionUsuario.Contrasenia)
+
+                if (BaseDeDatosSQL.datosDeUsuario.Identificacion == informacionUsuario.Identificacion && BaseDeDatosSQL.datosDeUsuario.Contrasenia == informacionUsuario.Contrasenia)
                 {
-                    MessageBox.Show(this, "Bienvenido", "Exito!",
+                    MessageBox.Show(this, "Bienvenido", "¡Éxito!",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    LimpiarCampos();
+                    this.Close();
+
                 }
                 else
                 {
-                    MessageBox.Show(this, "Error al ingresar al sistema, verifica tu identifucacion y contraseña", "Exito!",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this, "Error al ingresar al sistema, verifica tu identificacion y contraseña", "Error",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    LimpiarCampos();
                 }
-                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void LimpiarCampos()
+        {
+            TxtBoxUsuario.Clear();
+            TxtBoxContrasenia.Clear();
+        }
+
+        private void Login_usuario()
+        {
+            try
+            {
+
+                usuarioRegistrado = new UsuarioRegistrado(baseDeDatos, new LogMySQL(baseDeDatos));
+
 
             }
             catch (Exception ex)
             {
                 MessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
 
         }

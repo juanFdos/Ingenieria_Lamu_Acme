@@ -22,7 +22,7 @@ namespace Lamu.BD.Interfaces
 
         void AutenticarUnUsuario(InformacionUsuario informacionUsuario);
 
-        List<string> ObtenerDatosDeUsuario(MySqlDataReader myreader);
+        void ObtenerDatosDeUsuario(MySqlDataReader myreader);
 
     }
 }

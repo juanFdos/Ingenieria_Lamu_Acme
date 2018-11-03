@@ -20,7 +20,7 @@ namespace Lamu.BD
 
         public string BuscarUsuario(string identificacionUsuario, string contraseniaUsuario)
         {
-            return"Select * From usuarios Where identificacion = ?indentificacionUsuario AND contrasenia = ?contraseniaUsuario";
+            return "Select * From usuario Where identificacion =" + identificacionUsuario + " AND contrasenia =" + contraseniaUsuario + ";";
         }
 
     }

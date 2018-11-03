@@ -12,11 +12,15 @@ namespace Lamu.BD
     public class BaseDeDatosSQL : IBaseDeDatos
     {
         private IConexion Conexion;
-        public List<string> datosUsuario { get; set; }
-        
+        public static InformacionUsuario datosDeUsuario { get; set; }
+
         public BaseDeDatosSQL(IConexion conexion)
         {
             Conexion = conexion;
+        }
+
+        public BaseDeDatosSQL()
+        {
         }
 
         public void AgregarCliente(InformacionCliente informacionCliente)
@@ -109,18 +113,14 @@ namespace Lamu.BD
             }
         }
 
-        public List<string> ObtenerDatosDeUsuario(MySqlDataReader myreader)
+        public void ObtenerDatosDeUsuario(MySqlDataReader myreader)
         {
-            List<string> datosUsuario = null;
+
             if (myreader.Read())
             {
-                datosUsuario = new List<string>();
-                datosUsuario.Add(myreader["Nombre de la columna de la identificacion"].ToString());
-                datosUsuario.Add(myreader["Nombre de la columna de la contraseña"].ToString());
-                return datosUsuario;
+                datosDeUsuario = new InformacionUsuario(myreader["identificacion"].ToString(), myreader["contrasenia"].ToString());
             }
 
-            return datosUsuario;
         }
     }
 }

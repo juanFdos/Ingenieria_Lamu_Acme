@@ -20,7 +20,9 @@ namespace Lamu.BD
         private string Database = "lamu";
 
         internal IBaseDeDatos BaseDeDatos;
-       
+
+        private BaseDeDatosSQL baseDeDatos;
+
 
         public ConexionMySQL()
         {
@@ -211,40 +213,19 @@ namespace Lamu.BD
 
         public void AutenticarUsuario(string identificacionUsuario, string contraseniaUsuario, string query)
         {
-            
-
-          
-            MySqlConnection conn = new MySqlConnection(Conexion.ToString());
-            conn.Open();
 
 
-            MySqlCommand mycomand = new MySqlCommand(query, conn);
+            Conexion.Open();
+
+            MySqlCommand mycomand = new MySqlCommand(query, Conexion);
             mycomand.Parameters.AddWithValue("?identificacionUsuario", identificacionUsuario);
 
             mycomand.Parameters.AddWithValue("?contraseniaUsuario", contraseniaUsuario);
 
-
             MySqlDataReader myreader = mycomand.ExecuteReader();
-            BaseDeDatos.ObtenerDatosDeUsuario(myreader);
-            
+            baseDeDatos = new BaseDeDatosSQL();
+            baseDeDatos.ObtenerDatosDeUsuario(myreader);
 
-            /*
-            try
-            {
-                string[] parametros = new string[2];
-                parametros[0] = identificacion;
-                parametros[1] = contrasenia;
-                string[] nombreParametros = new string[2];
-                nombreParametros[0] = "VCIDENTIFICACION";
-                nombreParametros[1] = "VCCONTRASENIA";
-                EjecutarUnProcedimientoAlmacenado("procedure_autenticar_Un_usuario", nombreParametros, parametros);
-            }
-            catch (MySqlException ex)
-            {
-                throw ex;
-            }
-            */
-            
         }
 
     }

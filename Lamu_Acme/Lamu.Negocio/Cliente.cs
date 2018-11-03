@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Lamu.Negocio
 {
-   public class Cliente
+   public class Cliente   
     {
 
         public IBaseDeDatos BaseDeDatos;
