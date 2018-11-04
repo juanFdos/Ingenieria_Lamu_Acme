@@ -30,14 +30,14 @@
         {
             this.AgregarPista = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.TxtBoxGenero = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBoxInterprete = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBoxSubtitulo = new System.Windows.Forms.MaskedTextBox();
+            this.TxtBoxTitulo = new System.Windows.Forms.MaskedTextBox();
             this.LGenero = new System.Windows.Forms.Label();
             this.LInterprete = new System.Windows.Forms.Label();
             this.LSubtitulo = new System.Windows.Forms.Label();
             this.LTitulo = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,13 +55,14 @@
             this.AgregarPista.TabIndex = 8;
             this.AgregarPista.Text = "Guardar";
             this.AgregarPista.UseVisualStyleBackColor = true;
+            this.AgregarPista.Click += new System.EventHandler(this.AgregarPista_Click_1);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.maskedTextBox4);
-            this.groupBox1.Controls.Add(this.maskedTextBox3);
-            this.groupBox1.Controls.Add(this.maskedTextBox2);
-            this.groupBox1.Controls.Add(this.maskedTextBox1);
+            this.groupBox1.Controls.Add(this.TxtBoxGenero);
+            this.groupBox1.Controls.Add(this.TxtBoxInterprete);
+            this.groupBox1.Controls.Add(this.TxtBoxSubtitulo);
+            this.groupBox1.Controls.Add(this.TxtBoxTitulo);
             this.groupBox1.Controls.Add(this.LGenero);
             this.groupBox1.Controls.Add(this.LInterprete);
             this.groupBox1.Controls.Add(this.LSubtitulo);
@@ -73,6 +74,34 @@
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Formulario Pista";
+            // 
+            // TxtBoxGenero
+            // 
+            this.TxtBoxGenero.Location = new System.Drawing.Point(126, 136);
+            this.TxtBoxGenero.Name = "TxtBoxGenero";
+            this.TxtBoxGenero.Size = new System.Drawing.Size(112, 22);
+            this.TxtBoxGenero.TabIndex = 16;
+            // 
+            // TxtBoxInterprete
+            // 
+            this.TxtBoxInterprete.Location = new System.Drawing.Point(126, 103);
+            this.TxtBoxInterprete.Name = "TxtBoxInterprete";
+            this.TxtBoxInterprete.Size = new System.Drawing.Size(112, 22);
+            this.TxtBoxInterprete.TabIndex = 15;
+            // 
+            // TxtBoxSubtitulo
+            // 
+            this.TxtBoxSubtitulo.Location = new System.Drawing.Point(126, 64);
+            this.TxtBoxSubtitulo.Name = "TxtBoxSubtitulo";
+            this.TxtBoxSubtitulo.Size = new System.Drawing.Size(112, 22);
+            this.TxtBoxSubtitulo.TabIndex = 14;
+            // 
+            // TxtBoxTitulo
+            // 
+            this.TxtBoxTitulo.Location = new System.Drawing.Point(126, 27);
+            this.TxtBoxTitulo.Name = "TxtBoxTitulo";
+            this.TxtBoxTitulo.Size = new System.Drawing.Size(112, 22);
+            this.TxtBoxTitulo.TabIndex = 13;
             // 
             // LGenero
             // 
@@ -110,34 +139,6 @@
             this.LTitulo.TabIndex = 9;
             this.LTitulo.Text = "Ingrese el Título:";
             // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(126, 27);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(112, 22);
-            this.maskedTextBox1.TabIndex = 13;
-            // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(126, 64);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(112, 22);
-            this.maskedTextBox2.TabIndex = 14;
-            // 
-            // maskedTextBox3
-            // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(126, 103);
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(112, 22);
-            this.maskedTextBox3.TabIndex = 15;
-            // 
-            // maskedTextBox4
-            // 
-            this.maskedTextBox4.Location = new System.Drawing.Point(126, 136);
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(112, 22);
-            this.maskedTextBox4.TabIndex = 16;
-            // 
             // AgregarUnaPista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
@@ -163,9 +164,9 @@
         private System.Windows.Forms.Label LInterprete;
         private System.Windows.Forms.Label LSubtitulo;
         private System.Windows.Forms.Label LTitulo;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox TxtBoxGenero;
+        private System.Windows.Forms.MaskedTextBox TxtBoxInterprete;
+        private System.Windows.Forms.MaskedTextBox TxtBoxSubtitulo;
+        private System.Windows.Forms.MaskedTextBox TxtBoxTitulo;
     }
 }

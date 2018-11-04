@@ -11,13 +11,13 @@ namespace Lamu.BD
     {
         public string AgregarPista(InformacionPista informacionPista)
         {
-            return "INSERT INTO pista(titulo,subtitulo,interprete,genero)" +
+            return "INSERT INTO PISTA(titulo,subtitulo,interprete,genero)" +
                 " VALUES(" + informacionPista.ToString() + "); ";
         }
 
         public string ConsultarTodasLasPistas()
         {
-            return "SELECT * FROM pista";
+            return "SELECT * FROM pista;";
         }
     }
 }

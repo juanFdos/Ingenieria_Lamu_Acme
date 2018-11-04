@@ -79,7 +79,7 @@ namespace Lamu.BD
             catch (MySqlException ex)
             {
                 throw ex;
-                //throw new Excepciones.ProblemasConLaConexion("Problemas con la conexión a la base de datos.");
+
             }
         }
 

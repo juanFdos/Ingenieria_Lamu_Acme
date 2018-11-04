@@ -27,9 +27,12 @@ namespace Lamu.Frames
 
         private void BtnGuardar_Click(object sender, EventArgs e)
         {
-            CrearClientes_Load();
             try
             {
+                BaseDeDatosSQL baseDeDatos = new BaseDeDatosSQL(new ConexionMySQL());
+
+                cliente = new Cliente(baseDeDatos, new LogMySQL(baseDeDatos));
+
                 InformacionCliente informacionCliente =
       new InformacionCliente(TxtBoxNombre.Text, TxtBoxIdentificacion.Text);
                 cliente.ValidarUnCliente(informacionCliente);
@@ -58,22 +61,6 @@ namespace Lamu.Frames
         {
             TxtBoxIdentificacion.Clear();
             TxtBoxNombre.Clear();
-        }
-
-        private void CrearClientes_Load()
-        {
-            try
-            {
-                BaseDeDatosSQL baseDeDatos = new BaseDeDatosSQL(new ConexionMySQL());
-
-               cliente = new Cliente(baseDeDatos, new LogMySQL(baseDeDatos));
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-            }
-
         }
 
     }
