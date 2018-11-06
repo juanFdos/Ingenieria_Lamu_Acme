@@ -16,6 +16,11 @@ namespace Lamu.Negocio
         public ILog Log;
         private string mensajeDeError;
 
+        public Cliente()
+        {
+
+        }
+
         public Cliente(IBaseDeDatos baseDeDatos, ILog log)
         {
             BaseDeDatos = baseDeDatos;
@@ -40,7 +45,7 @@ namespace Lamu.Negocio
 
         }
 
-        private bool ValidarCampos(InformacionCliente informacionCliente)
+        public bool ValidarCampos(InformacionCliente informacionCliente)
         {
             mensajeDeError = "Se presentaron los siguiente errores: \n";
             int contador = 0;

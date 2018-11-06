@@ -17,6 +17,11 @@ namespace Lamu.Negocio
         public ILog Log;
         private string mensajeDeError;
 
+        public Usuario()
+        {
+
+        }
+
         public Usuario(IBaseDeDatos baseDeDatos, ILog log)
         {
             BaseDeDatos = baseDeDatos;

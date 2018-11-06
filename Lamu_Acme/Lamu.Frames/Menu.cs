@@ -33,5 +33,10 @@ namespace Lamu.Frames
             Form AgregarUnaPista = new AgregarUnaPista();
             AgregarUnaPista.Show();
         }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

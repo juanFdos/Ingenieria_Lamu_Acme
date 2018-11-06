@@ -50,7 +50,7 @@ namespace Lamu.Frames
                     LimpiarCampos();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show(this, "Error al ingresar al sistema, verifica tu identificacion y contraseña", "Error",
                        MessageBoxButtons.OK, MessageBoxIcon.Error);

@@ -38,3 +38,13 @@ C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug
 C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csproj.CopyComplete
 C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.exe
 C:\Users\danie\Downloads\Ingenieria_Lamu_Acme\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.pdb
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\bin\Debug\Lamu.Entidades.exe.config
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\bin\Debug\Lamu.Entidades.exe
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\bin\Debug\Lamu.Entidades.pdb
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csprojAssemblyReference.cache
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.csproj.CopyComplete
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.exe
+C:\Users\Ingeomega\Ingenieria_Lamu_Acme_Login\Lamu_Acme\Lamu.Entidades\obj\Debug\Lamu.Entidades.pdb
